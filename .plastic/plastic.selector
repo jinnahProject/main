@@ -1,0 +1,4 @@
+repository "Jinnah@unity_031990031@cloud"
+  path "/"
+    smartbranch "/main/test_branch" 
+     
