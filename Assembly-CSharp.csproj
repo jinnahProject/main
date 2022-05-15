@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TV\readme.txt" />
+    <None Include="Assets\Tim&apos;s Assets\Doors\Shader\BloodyDoor.shader" />
     <None Include="Assets\Horror Assets\Read me.txt" />
   </ItemGroup>
   <ItemGroup>

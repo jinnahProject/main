@@ -161,3 +161,237 @@ Received Import Request.
   path: Assets/3Dfrk/Frames with pictures
   artifactKey: Guid(d0f6c004e30f8ea47beae89302b286fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/3Dfrk/Frames with pictures using Guid(d0f6c004e30f8ea47beae89302b286fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38eca30ca8bc4e4f67f260d14779351') in 0.016735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.459805 seconds.
+  path: Assets/ArchViz Sofa Pack - Lite/Pillows/Materials/Mat_Sofa1_Blank_Pillows.mat
+  artifactKey: Guid(6cf42081a9e0e9e44a7bdd505e51a4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArchViz Sofa Pack - Lite/Pillows/Materials/Mat_Sofa1_Blank_Pillows.mat using Guid(6cf42081a9e0e9e44a7bdd505e51a4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562500a563be461f29e49212f69f43a8') in 2.703902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Furniture/Materials/Pillow_1.mat
+  artifactKey: Guid(63423b7226709b94cb78bc0a51c2fdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Pillow_1.mat using Guid(63423b7226709b94cb78bc0a51c2fdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85426ac734ad522a986e159c87693d01') in 0.353873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Albedo.tga
+  artifactKey: Guid(bf20028737caea2408056161cb347fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Albedo.tga using Guid(bf20028737caea2408056161cb347fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a1a2ad9ad1365a0311e73be514cb63') in 0.042070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Roughness.tga
+  artifactKey: Guid(a752bb8b426c8df4493608bae16acc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Roughness.tga using Guid(a752bb8b426c8df4493608bae16acc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fff7cdfc11cce2a69b3ae9562e689b4') in 0.045204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Metalness.tga
+  artifactKey: Guid(c7e63f17374c41f408fcb8b7db64cdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Metalness.tga using Guid(c7e63f17374c41f408fcb8b7db64cdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731e3b2447a8d8ed33d48791dca73811') in 0.024440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Gloss.tga
+  artifactKey: Guid(f5e6c3e070d732c47bc9f7b02c519e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Gloss.tga using Guid(f5e6c3e070d732c47bc9f7b02c519e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f34d3f5e787d6166a11b76e0ec46ba1') in 0.042100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 3.mat
+  artifactKey: Guid(bf276f53291eddb4d9053d2ae81ca063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 3.mat using Guid(bf276f53291eddb4d9053d2ae81ca063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef149db2383ab6f946cc733c9607035a') in 0.475597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Normal.tga
+  artifactKey: Guid(a30d68615ce3b244d8f5262280bf3d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Normal.tga using Guid(a30d68615ce3b244d8f5262280bf3d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da78b86a5d7573109e1c9fcb176c27b2') in 0.168899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Furniture/Textures/Pillows_1_2.png
+  artifactKey: Guid(3825e8f652ab7d548bfb32bd1b3b396c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Textures/Pillows_1_2.png using Guid(3825e8f652ab7d548bfb32bd1b3b396c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f15946f1801c21179d4fbbd1d79ea7') in 0.435424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ArchViz Sofa Pack - Lite/Pillows/Prefabs/Pref_Pillow1.prefab
+  artifactKey: Guid(dc5a7ec2e470fab418b7ab1856804a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArchViz Sofa Pack - Lite/Pillows/Prefabs/Pref_Pillow1.prefab using Guid(dc5a7ec2e470fab418b7ab1856804a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2190fc1d90b7e14e9d797f036c14e0ad') in 0.937500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Normal.tga
+  artifactKey: Guid(80316b94a51a50e4785eae051a18d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Normal.tga using Guid(80316b94a51a50e4785eae051a18d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bcb70400f2823f8cb37a77fa8b5675') in 0.052165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Normal.tga
+  artifactKey: Guid(3dd2c9f9f13e2984fb0a63f13569bf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Normal.tga using Guid(3dd2c9f9f13e2984fb0a63f13569bf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4491ed48474af005196d45a43cad39') in 0.094226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Furniture/Textures/Pillows_1_1.png
+  artifactKey: Guid(d6bc1032050d2564d84b5fb22057d59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Textures/Pillows_1_1.png using Guid(d6bc1032050d2564d84b5fb22057d59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722a16f473b98dd880628f8a5e81e945') in 0.500704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Furniture/Textures/Pillows_1_Normal.png
+  artifactKey: Guid(03635b99ce11e604ea176cd4a2b7f347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Textures/Pillows_1_Normal.png using Guid(03635b99ce11e604ea176cd4a2b7f347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11caae0ad996b6513e51af0a5185f1ee') in 0.040483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Gloss.tga
+  artifactKey: Guid(67f59a705419b6d4398949b648d6b242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Gloss.tga using Guid(67f59a705419b6d4398949b648d6b242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1dc7beffc701cd664024b5a719aab4') in 0.051387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Flashlight PRO/_Assets/audio/switch-17.wav
+  artifactKey: Guid(0f7c6706f99f918428021aa6b87b483c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Flashlight PRO/_Assets/audio/switch-17.wav using Guid(0f7c6706f99f918428021aa6b87b483c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb1405f2535b4c080c60704e642e9d7') in 0.361233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Horror Assets/Prefabs/WheelChair.prefab
+  artifactKey: Guid(bfe9900043c59b04ab9e2d58f97d900a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Assets/Prefabs/WheelChair.prefab using Guid(bfe9900043c59b04ab9e2d58f97d900a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42d4ef860a661157f7612f679c63595') in 0.237629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001283 seconds.
+  path: Assets/Toon Furniture/Textures/Pillows_1_3.png
+  artifactKey: Guid(728c45132fc6b9347b4b70c3bfd65107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Textures/Pillows_1_3.png using Guid(728c45132fc6b9347b4b70c3bfd65107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5db8b642d92db4645343b1bce2b1f6c') in 0.063692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 4.mat
+  artifactKey: Guid(b00045d5b284de34ea2e777e68ea2dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 4.mat using Guid(b00045d5b284de34ea2e777e68ea2dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eaf28179414487adf1f09e6ed642640') in 0.050769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Displacement.tga
+  artifactKey: Guid(8a59b28ce306daf44b8e6531e8e53f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Displacement.tga using Guid(8a59b28ce306daf44b8e6531e8e53f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95c327e6db53465d7136d43843d91f5') in 0.029079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ArchViz Sofa Pack - Lite/Demo/TexturesBonus/Wood_diffuse.png
+  artifactKey: Guid(903c626e5c6a9414d816d93916a16ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArchViz Sofa Pack - Lite/Demo/TexturesBonus/Wood_diffuse.png using Guid(903c626e5c6a9414d816d93916a16ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75adb89b99f2b20b5c2ee1ba3679bba5') in 0.142338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Displacement.tga
+  artifactKey: Guid(079f5a1f3a99b5b45b859abf658a294d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Displacement.tga using Guid(079f5a1f3a99b5b45b859abf658a294d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cf63f7a070c194dae6e1a6c4e4c3bb') in 0.026781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/Toon Furniture/Textures/Pillows_1_4.png
+  artifactKey: Guid(918ebdb198c175a4cb3d209b2f45eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Textures/Pillows_1_4.png using Guid(918ebdb198c175a4cb3d209b2f45eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adb8daad07d841417636943ae4e1bcc') in 0.079197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Metalness.tga
+  artifactKey: Guid(1dbfa30004b30934f9e03f8fb3d0176e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Metalness.tga using Guid(1dbfa30004b30934f9e03f8fb3d0176e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb6fb3b6772796e4aaf9290e4246762') in 0.019194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ArchViz Sofa Pack - Lite/Pillows/Prefabs/Pref_Pillow3.prefab
+  artifactKey: Guid(17c5e90e6dbe11347b5ae1a987425384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArchViz Sofa Pack - Lite/Pillows/Prefabs/Pref_Pillow3.prefab using Guid(17c5e90e6dbe11347b5ae1a987425384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fad13ee211a181fb3eefa2c50b7212f') in 0.048807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Normal.tga
+  artifactKey: Guid(9287eaf9eef52cd478b385868bfd69d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Normal.tga using Guid(9287eaf9eef52cd478b385868bfd69d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77541d7a7f52edd7cc73a91866581b20') in 0.052928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/ArchViz Sofa Pack - Lite/Pillows/Textures/Pillows_normal.png
+  artifactKey: Guid(82e9150e32360994d920159b0a5d7b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArchViz Sofa Pack - Lite/Pillows/Textures/Pillows_normal.png using Guid(82e9150e32360994d920159b0a5d7b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0665729eda7bd589718cb2e4a77c07') in 0.034606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ArchViz Sofa Pack - Lite/Pillows/Materials/Mat_Sofa1_Leather_Pillows.mat
+  artifactKey: Guid(b009aff6e58c17049ab04320abc9d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArchViz Sofa Pack - Lite/Pillows/Materials/Mat_Sofa1_Leather_Pillows.mat using Guid(b009aff6e58c17049ab04320abc9d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c65c789a44d75b1bd6feca5b474b6cb') in 0.055015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Furniture/Models/Pillows_1.fbx
+  artifactKey: Guid(bc7c26d9e5732fb4e9694d56f647dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Pillows_1.fbx using Guid(bc7c26d9e5732fb4e9694d56f647dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b80bc921a9662d7e51aec62f7ee5cb') in 0.143652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ArchViz Sofa Pack - Lite/Demo/TexturesBonus/Wood_normal.png
+  artifactKey: Guid(ccc888a482f5aca45b6b74125317eb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArchViz Sofa Pack - Lite/Demo/TexturesBonus/Wood_normal.png using Guid(ccc888a482f5aca45b6b74125317eb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521fbba6273b7b58d824b5271dc8b344') in 0.227432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Albedo.tga
+  artifactKey: Guid(2e6def63d1fafb343bf48225c300ba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Albedo.tga using Guid(2e6def63d1fafb343bf48225c300ba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580d768a161dee88556eff27774ee9af') in 0.040665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Toon Furniture/Prefabs/Pillow_1.prefab
+  artifactKey: Guid(1fcc8ec3f56125644a57945c32cc1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Pillow_1.prefab using Guid(1fcc8ec3f56125644a57945c32cc1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfa7010aec29d326705dced6f546c97') in 0.036631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Albedo.tga
+  artifactKey: Guid(8e343a29d61854e4ea2e2d3a6d86f82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Albedo.tga using Guid(8e343a29d61854e4ea2e2d3a6d86f82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dc2475b5714ca7c48bf279f0514c2d') in 0.041052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Displacement.tga
+  artifactKey: Guid(9a478dfa131391244bd62cd135ac12be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Displacement.tga using Guid(9a478dfa131391244bd62cd135ac12be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef47870a6c3dc161e72ea7589ef50a5') in 0.039045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Horror Assets/Textures/WheelChair_Color.png
+  artifactKey: Guid(45fd572876f68ea48a50605f320d063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Assets/Textures/WheelChair_Color.png using Guid(45fd572876f68ea48a50605f320d063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac5ba16c1a3d28ce63f6bcdeca34893') in 0.053921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ArchViz Sofa Pack - Lite/Pillows/Prefabs/Pref_Pillow2.prefab
+  artifactKey: Guid(e9efcace81824a94ca8f3327e5e8d42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArchViz Sofa Pack - Lite/Pillows/Prefabs/Pref_Pillow2.prefab using Guid(e9efcace81824a94ca8f3327e5e8d42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da41c5f3c68d293d7af5a4c5a13226d3') in 0.122773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.583966 seconds.
+  path: Assets/Free/Wooden Floor Pack
+  artifactKey: Guid(bd1b2b36fd85c514e8f0e33f7aa27db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack using Guid(bd1b2b36fd85c514e8f0e33f7aa27db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17592b3a5a31349130b1ea01406b4fb2') in 0.015962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.785336 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures
+  artifactKey: Guid(cb8eb2715f75fd749a4ef1d2a357ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures using Guid(cb8eb2715f75fd749a4ef1d2a357ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647105a864084a62a36ffb144ed49bd1') in 0.020502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.334938 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor
+  artifactKey: Guid(41e485d614b14d64698328c400d3ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor using Guid(41e485d614b14d64698328c400d3ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f651714e37c734f152ee3f6acfd722f4') in 0.004567 seconds 
