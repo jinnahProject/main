@@ -321,6 +321,10 @@
 -r:"D:/Program Files/Unity 2021.3.2f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"D:/Program Files/Unity 2021.3.2f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"D:/Program Files/Unity 2021.3.2f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+"Assets/Scripts/EnemyController.cs"
+"Assets/Scripts/MouseLook.cs"
+"Assets/Scripts/PlayerManager.cs"
+"Assets/Scripts/PlayerMovement.cs"
 "Assets/YARRAK/Kafasi.cs"
 "Assets/_Flashlight PRO/_Assets/scripts/Flashlight_PRO.cs"
 -langversion:9.0
