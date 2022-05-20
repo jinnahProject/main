@@ -12,7 +12,7 @@ public class DisplaySelectedObject : MonoBehaviour {
 	void OnEnable () {
 		//temporalGOArrange = 0;
 		if (temporalGOArrange == 1) {		//Temporal script
-			TemporalMethodArrangeModels ();
+			TemporalMethodArrangeModels();
 			TemporalPlaceArrangeModels();
 		} else {
 			if (displayOptions.Length > 0) {
