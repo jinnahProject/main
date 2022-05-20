@@ -5,6 +5,14 @@ using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
+    public LayerMask whatIsGround;
+    /// <Patrolling>
+    public Vector3 walkPoint;
+    bool walkPointSet;
+    public float walkPointRange; 
+    /// </Patrolling>
+
+
     public float lookRadius = 10f;
 
     Transform target;
@@ -21,6 +29,7 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(target.position, transform.position);
+
         if (distance <= lookRadius)
         {
             agent.SetDestination(target.position);
@@ -31,6 +40,34 @@ public class EnemyController : MonoBehaviour
 
             }
         }
+        else
+        {
+            Patroling();
+        }
+    }
+    private void Patroling()
+    {
+        if (!walkPointSet) SearchWalkPoint();
+
+        if (walkPointSet)
+            agent.SetDestination(walkPoint);
+
+        Vector3 distanceToWalkPoint = transform.position - walkPoint;
+
+        //Walkpoint reached
+        if (distanceToWalkPoint.magnitude < 1f)
+            walkPointSet = false;
+    }
+    private void SearchWalkPoint()
+    {
+        //Calculate random point in range
+        float randomZ = Random.Range(-walkPointRange, walkPointRange);
+        float randomX = Random.Range(-walkPointRange, walkPointRange);
+
+        walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
+
+        if (Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
+            walkPointSet = true;
     }
 
     void FaceTarget()

@@ -9,6 +9,7 @@ public class PressKeyOpenDoor : MonoBehaviour
     public bool Action = false;
     private bool opened = false;
     public Animator anim;
+    private float animTime = 1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,16 +37,22 @@ public class PressKeyOpenDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animTime += Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.E))
         {
+
             if (Action == true)
             {
                 Instruction.SetActive(false);
-                AnimeObject.GetComponent<Animator>().Play("DoorOpen");
+                if(animTime>=1f)
+                {
+                    AnimeObject.GetComponent<Animator>().Play("DoorOpen");
+                    Pressed();
+                    animTime = 0f;
+                }
                 Action = false;
 
-                Pressed();
             }
         }
         
