@@ -8,6 +8,9 @@ public class FlashlightManager : MonoBehaviour
     private float flashlightIntensity;
     public Light myLight;
     private float flashlightOpenTime=0f;
+
+    public GameObject batteryInfoField;
+    public GameObject batteryFullnessBar;
     
     public List<GameObject> batteries;
     GameObject currentBattery;
@@ -21,8 +24,8 @@ public class FlashlightManager : MonoBehaviour
     void Start()
     {
         myLight = myLight.GetComponent<Light>();
-        print(batteries.Count);
-        makeReady();
+        print("toplam batarya: " + batteries.Count);
+        
         
     }
 
@@ -38,18 +41,24 @@ public class FlashlightManager : MonoBehaviour
         {
             this.currentBattery = null;
         }
+        print("aktif batarya sayısı: " + this.activeBatteries.Count);
     }
 
     void setActiveBatteries(List<GameObject> batteries)
     {
         for(int i = 0; i < batteries.Count; i++)
         {
-            print(batteries[i].name);
             bool batteryActiveness = batteries[i].GetComponent<BatteryController>().getIsActive();
-            print(batteryActiveness);
-            if(batteryActiveness)
+            bool isPicked = batteries[i].GetComponent<BatteryController>().getIsPicked();
+            if(batteryActiveness && !isPicked)
             {
+                batteries[i].GetComponent<BatteryController>().setIsPicked(true);
+
                 this.activeBatteries.Add(batteries[i]);
+                print(batteries[i].name + " aktif");
+            }
+            else{
+                print(batteries[i].name + " pasif");
             }
         }
     }
@@ -58,23 +67,25 @@ public class FlashlightManager : MonoBehaviour
         for(int i = 0; i < batteries.Count; i++){
             bool batteryActiveness = batteries[i].GetComponent<BatteryController>().getIsActive();
             float batteryFullness = batteries[i].GetComponent<BatteryController>().getBatteryFullness();
-            if(batteryActiveness){
+            bool isPicked = batteries[i].GetComponent<BatteryController>().getIsPicked();
+            if(batteryActiveness && isPicked){
                 currentBattery = batteries[i];
                 break;
             }
             else{
                 this.activeBatteries.Remove(batteries[i]);
             }
-            print(this.activeBatteries.Count);
         }
                 
     }
 
     void setCurrentBatteryFullness(){
-        currentBattery.GetComponent<BatteryController>().setBatteryFullness(-0.08f);
+        currentBattery.GetComponent<BatteryController>().setBatteryFullness(-0.5f * Time.deltaTime);
     }
 
     void changeBattery(){
+        print("***** battery change ******");
+        print("aktif batarya sayısı: " + this.activeBatteries.Count);
         if(this.activeBatteries.Count > 0){
             setCurrentBattery(this.activeBatteries);
         }
@@ -92,11 +103,29 @@ public class FlashlightManager : MonoBehaviour
         }
     }
 
+    void changeLightIntensity(float newIntensity){
+        if(this.currentBattery != null){
+            this.myLight.intensity = newIntensity;
+        }
+    }
+
+    void setBatteryInfoField(){
+        this.batteryInfoField.GetComponent<TextMesh>().text = "Batarya Sayısı: " + this.activeBatteries.Count;
+    }
+
+    void setBatteryFullnessBar(){
+        if(this.currentBattery != null){
+            float batteryFullness = this.currentBattery.GetComponent<BatteryController>().getBatteryFullness();
+            this.batteryFullnessBar.GetComponent<TextMesh>().text = "(" + Mathf.Round(batteryFullness)  + "%)" ;
+        }
+    }
+
 
     // Update is called once per frame
     void Update()
     {
-        
+        setBatteryInfoField();
+        setBatteryFullnessBar();
 
         if (Input.GetKeyDown(KeyCode.F))
         {
@@ -115,17 +144,11 @@ public class FlashlightManager : MonoBehaviour
             }
             else{
                 setCurrentBatteryFullness();
+                changeLightIntensity(currentBattery.GetComponent<BatteryController>().getBatteryFullness()/50);
                 //print(currentBattery.GetComponent<BatteryController>().getBatteryFullness());
             }
             
-            if(myLight.intensity <= maxIntensity)
-            {
-                myLight.intensity -= fadeRate * Time.deltaTime;
-            }
-            if(myLight.intensity < minIntensity)
-            {
-                myLight.intensity = minIntensity;
-            }
+            
         }
     }
 }
