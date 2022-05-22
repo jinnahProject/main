@@ -5,9 +5,9 @@ using UnityEngine;
 public class KeyPicker : MonoBehaviour
 {
     public GameObject Instruction;
-    public GameObject battery;
-    public GameObject pickedBattery;
-    public GameObject flashlight;
+    public GameObject key;
+    public GameObject pickedKey;
+    public GameObject door;
     private bool Action = false;
     // Start is called before the first frame update
     void Start()
@@ -38,10 +38,8 @@ public class KeyPicker : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 print("Picked");
-                print(pickedBattery.name);
-                pickedBattery.GetComponent<BatteryController>().setIsActive(true);
-                flashlight.GetComponent<FlashlightManager>().makeReady();
-                Destroy(battery);
+                print(key.name);
+                Destroy(key);
                 Action = false;
             }
            
