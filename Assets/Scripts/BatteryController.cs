@@ -7,6 +7,7 @@ public class BatteryController : MonoBehaviour
     private float batteryFullness = 100f;
     private bool isActive = false;
     public GameObject battery;
+    private bool isPicked = false;
     // Start is called before the first frame update
 
 
@@ -32,8 +33,19 @@ public class BatteryController : MonoBehaviour
         return this.isActive;
     }
 
+    public void setIsPicked(bool isPicked)
+    {
+        this.isPicked = isPicked;
+    }
+
+    public bool getIsPicked()
+    {
+        return this.isPicked;
+    }
+
     public void setIsActive(bool isActive)
     {
+        print("batarya aktifleştirildi");
         this.isActive = isActive;
     }
 

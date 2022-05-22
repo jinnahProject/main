@@ -37,6 +37,8 @@ public class batteryPicker : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                print("Picked");
+                print(pickedBattery.name);
                 pickedBattery.GetComponent<BatteryController>().setIsActive(true);
                 flashlight.GetComponent<FlashlightManager>().makeReady();
                 Destroy(battery);
