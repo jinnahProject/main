@@ -13,6 +13,8 @@ public class PressKeyOpenDoor : MonoBehaviour
     private bool doIHaveKey = false;
     public AudioClip lockedDoorSound;
 
+    public bool locked;
+
 
     // Start is called before the first frame update
     void Start()
@@ -40,15 +42,24 @@ public class PressKeyOpenDoor : MonoBehaviour
         opened = !opened;
         anim.SetBool("Opened", !opened);
     }
-    // Update is called once per frame
-    void Update()
-    {
-        try { 
+
+    void checkKey(){
+         try { 
             doIHaveKey = AnimeObject.GetComponent<KeyController>().keyControl();
         }
         catch
         {
         }
+    }
+    // Update is called once per frame
+    void Update()
+    {
+       if(this.locked){
+           checkKey();
+       }
+       else{
+           doIHaveKey = true;
+       }
 
         animTime += Time.deltaTime;
 
