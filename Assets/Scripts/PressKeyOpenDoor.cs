@@ -10,11 +10,17 @@ public class PressKeyOpenDoor : MonoBehaviour
     private bool opened = false;
     public Animator anim;
     private float animTime = 1f;
+    private bool doIHaveKey = false;
+    public AudioClip lockedDoorSound;
+
+
     // Start is called before the first frame update
     void Start()
     {
         Instruction.GetComponent<MeshRenderer>().enabled = true;
         Instruction.SetActive(false);
+
+
     }
     void OnTriggerStay(Collider collison)
     {
@@ -37,6 +43,13 @@ public class PressKeyOpenDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        try { 
+            doIHaveKey = AnimeObject.GetComponent<KeyController>().keyControl();
+        }
+        catch
+        {
+        }
+
         animTime += Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -44,14 +57,23 @@ public class PressKeyOpenDoor : MonoBehaviour
 
             if (Action == true)
             {
-                Instruction.SetActive(false);
-                if(animTime>=1f)
+                if (doIHaveKey)
                 {
-                    AnimeObject.GetComponent<Animator>().Play("DoorOpen");
-                    Pressed();
-                    animTime = 0f;
+                    Instruction.SetActive(false);
+                    if (animTime >= 1f)
+                    {
+                        AnimeObject.GetComponent<Animator>().Play("DoorOpen");
+                        Pressed();
+                        animTime = 0f;
+                    }
+                    Action = false;
                 }
-                Action = false;
+                else
+                {
+                    GetComponent<AudioSource>().PlayOneShot(lockedDoorSound);
+
+                }
+
 
             }
         }
