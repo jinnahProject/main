@@ -7,9 +7,9 @@ public class PressEOpenDrawer : MonoBehaviour
     public GameObject Instruction;
     public GameObject AnimeObject;
     public bool Action = false;
-    private bool opened = false;
+    private bool opened ;
     public Animator anim;
-    private float animTime = 1f;
+    private float animTime = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -30,11 +30,7 @@ public class PressEOpenDrawer : MonoBehaviour
         Instruction?.SetActive(false);
         Action = false;
     }
-    void Pressed()
-    {
-        opened = !opened;
-        anim.SetBool("Opened", !opened);
-    }
+
     // Update is called once per frame
     void Update()
     {
@@ -50,7 +46,9 @@ public class PressEOpenDrawer : MonoBehaviour
                     if (animTime >= 1f)
                     {
                         AnimeObject.GetComponent<Animator>().Play("DrawerOpen");
-                        Pressed();
+                        anim.SetBool("Opened", !opened);
+
+                        opened = !opened;
                         animTime = 0f;
                     }
                     Action = false;

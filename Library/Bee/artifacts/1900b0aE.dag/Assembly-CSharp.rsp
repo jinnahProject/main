@@ -337,6 +337,7 @@
 "Assets/FlashlightManager.cs"
 "Assets/KeyController.cs"
 "Assets/Lamp Assets/Scripts/Lamp.cs"
+"Assets/OpenDrawer.cs"
 "Assets/PressEOpenDrawer.cs"
 "Assets/Scripts/BatteryController.cs"
 "Assets/Scripts/batteryPicker.cs"
