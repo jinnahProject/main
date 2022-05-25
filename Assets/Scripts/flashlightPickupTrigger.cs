@@ -8,33 +8,18 @@ public class flashlightPickupTrigger : MonoBehaviour
     public GameObject flashlightOnHand;
     public GameObject flashlightOnDesk;
     private float flashlightInstructionTime = 0f;
-    public List<GameObject> batteries;
     private bool Action = false;
-    // Start is called before the first frame update
-    void Start()
+    //public void showCursor(bool active)
+    //{
+    //    Instructions[0].SetActive(active);
+    //}
+
+    public void beginScript()
     {
-        
+        Action = true;
     }
-    void OnTriggerStay(Collider collison)
-    {
-        if (collison.transform.tag == "Player")
-        {
-            
-            if (flashlightOnHand.activeSelf)
-            {
-                Instructions[0].SetActive(false);
-            }
-            else
-            {
-                Instructions[0].SetActive(true);
-
-            }
 
 
-
-            Action = true;
-        }
-    }
     // Update is called once per frame
     void Update()
     {
@@ -46,23 +31,15 @@ public class flashlightPickupTrigger : MonoBehaviour
         {
             flashlightInstructionTime += Time.deltaTime;
         }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            if (Action)
+        if (Action)
             {
-                for (int i = 0; i < batteries.Count; i++)
-                {
-                    Destroy(batteries[i]);
-                }
                 Destroy(flashlightOnDesk);
                 flashlightOnHand.SetActive(true);
                 Instructions[1].SetActive(true);
-
-
             }
-            Action = false;
-        }
-        
+        Action = false;
+     
+
 
     }
 }

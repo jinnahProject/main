@@ -15,36 +15,21 @@ public class PressKeyOpenDoor : MonoBehaviour
 
     public bool locked;
 
-
-    // Start is called before the first frame update
-    void Start()
+    public void beginScript()
     {
-        Instruction.GetComponent<MeshRenderer>().enabled = true;
-        Instruction.SetActive(false);
+        Action = true;
+    }
 
-
-    }
-    void OnTriggerStay(Collider collison)
-    {
-        if (collison.transform.tag == "Player")
-        {
-            Instruction.SetActive(true);
-            Action = true;
-        }
-    }
-    void OnTriggerExit(Collider collision)
-    {
-        Instruction?.SetActive(false);
-        Action = false;
-    }
     void Pressed()
     {
         opened = !opened;
         anim.SetBool("Opened", !opened);
     }
 
-    void checkKey(){
-         try { 
+    void checkKey()
+    {
+        try
+        {
             doIHaveKey = AnimeObject.GetComponent<KeyController>().keyControl();
         }
         catch
@@ -54,41 +39,41 @@ public class PressKeyOpenDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(this.locked){
-           checkKey();
-       }
-       else{
-           doIHaveKey = true;
-       }
+        if (this.locked)
+        {
+            checkKey();
+        }
+        else
+        {
+            doIHaveKey = true;
+        }
 
         animTime += Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.E))
+
+        if (Action == true)
         {
-
-            if (Action == true)
+            if (doIHaveKey)
             {
-                if (doIHaveKey)
+                Instruction.SetActive(false);
+                if (animTime >= 1f)
                 {
-                    Instruction.SetActive(false);
-                    if (animTime >= 1f)
-                    {
-                        AnimeObject.GetComponent<Animator>().Play("DoorOpen");
-                        Pressed();
-                        animTime = 0f;
-                    }
-                    Action = false;
+                    AnimeObject.GetComponent<Animator>().Play("DoorOpen");
+                    Pressed();
+                    animTime = 0f;
                 }
-                else
-                {
-                    GetComponent<AudioSource>().PlayOneShot(lockedDoorSound);
-
-                }
-
+                Action = false;
+            }
+            else
+            {
+                AnimeObject.GetComponent<AudioSource>().PlayOneShot(lockedDoorSound);
 
             }
+
+
         }
-        
+
+
 
     }
 }

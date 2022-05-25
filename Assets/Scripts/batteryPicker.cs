@@ -16,18 +16,9 @@ public class batteryPicker : MonoBehaviour
         Instruction.SetActive(false);
     }
 
-    void OnTriggerStay(Collider collison)
+    public void beginScript()
     {
-         if (collison.transform.tag == "Player")
-        {
-            Instruction.SetActive(true);
-            Action = true;
-        }
-    }
-    void OnTriggerExit(Collider collision)
-    {
-        Instruction?.SetActive(false);
-        Action = false;
+        Action = true;
     }
 
     // Update is called once per frame
@@ -35,16 +26,13 @@ public class batteryPicker : MonoBehaviour
     {
         if (Action)
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                print("Picked");
+
                 print(pickedBattery.name);
                 pickedBattery.GetComponent<BatteryController>().setIsActive(true);
                 flashlight.GetComponent<FlashlightManager>().makeReady();
                 Destroy(battery);
                 Action = false;
-            }
-           
+            
         }
     }
 }
