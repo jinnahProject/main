@@ -11,6 +11,7 @@ TagManager:
   - Cabinet
   - Key
   - Lamp
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -22,8 +23,8 @@ TagManager:
   - Ground
   - New Layer 1
   - Wall
-  - 
-  - 
+  - Door
+  - Enemy
   - 
   - 
   - 

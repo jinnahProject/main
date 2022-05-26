@@ -8,7 +8,6 @@ public class playerActions : MonoBehaviour
     public float playerActivateDistence;
     bool active = false;
     public GameObject cursor;
-    bool picked = false;
     // Update is called once per frame
 
     private void Update()
@@ -84,7 +83,6 @@ public class playerActions : MonoBehaviour
 
                 }
             }
-
             else
             {
                 cursor.SetActive(false);

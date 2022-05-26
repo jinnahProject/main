@@ -45,7 +45,7 @@ public class EnemyController : MonoBehaviour
             Patroling();
         }
     }
-    private void Patroling()
+    public void Patroling()
     {
         if (!walkPointSet) SearchWalkPoint();
 
@@ -58,7 +58,7 @@ public class EnemyController : MonoBehaviour
         if (distanceToWalkPoint.magnitude < 1f)
             walkPointSet = false;
     }
-    private void SearchWalkPoint()
+    public void SearchWalkPoint()
     {
         //Calculate random point in range
         float randomZ = Random.Range(-walkPointRange, walkPointRange);

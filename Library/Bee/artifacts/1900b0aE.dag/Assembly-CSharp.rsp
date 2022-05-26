@@ -335,6 +335,7 @@
 "Assets/Customizable_Furnture/Source/Scripts/OptionsDisplaySaveVar.cs"
 "Assets/Customizable_Furnture/Source/Scripts/PlayVideo.cs"
 "Assets/Customizable_Furnture/Source/Scripts/SimpleSwitchMaterial.cs"
+"Assets/EnemyDoorRay.cs"
 "Assets/FlashlightManager.cs"
 "Assets/KeyController.cs"
 "Assets/Lamp Assets/Scripts/Lamp.cs"
@@ -356,6 +357,7 @@
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/PressKeyOpenDoor.cs"
 "Assets/Scripts/SetLamp.cs"
+"Assets/StunEnemy.cs"
 "Assets/TaskManager.cs"
 "Assets/_Flashlight PRO/_Assets/scripts/Flashlight_PRO.cs"
 -langversion:9.0

@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class PressKeyOpenDoor : MonoBehaviour
 {
-    public GameObject Instruction;
     public GameObject AnimeObject;
     public bool Action = false;
-    private bool opened = false;
+    public bool opened = false;
     public Animator anim;
     private float animTime = 1f;
-    private bool doIHaveKey = false;
+    public bool doIHaveKey = true;
     public AudioClip lockedDoorSound;
 
     public bool locked;
@@ -20,10 +19,21 @@ public class PressKeyOpenDoor : MonoBehaviour
         Action = true;
     }
 
-    void Pressed()
+    public void Pressed()
     {
+        AnimeObject.GetComponent<Animator>().Play("DoorOpen");
         opened = !opened;
         anim.SetBool("Opened", !opened);
+
+    }
+    public bool canEnemyOpenDoor()
+    {
+        if (!opened && !locked)
+            return true;
+        else
+        {
+            return false;
+        }
     }
 
     void checkKey()
@@ -55,10 +65,9 @@ public class PressKeyOpenDoor : MonoBehaviour
         {
             if (doIHaveKey)
             {
-                Instruction.SetActive(false);
+                this.locked = false;
                 if (animTime >= 1f)
                 {
-                    AnimeObject.GetComponent<Animator>().Play("DoorOpen");
                     Pressed();
                     animTime = 0f;
                 }
@@ -67,6 +76,7 @@ public class PressKeyOpenDoor : MonoBehaviour
             else
             {
                 AnimeObject.GetComponent<AudioSource>().PlayOneShot(lockedDoorSound);
+                Action = false;
 
             }
 
