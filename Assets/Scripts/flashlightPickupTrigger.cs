@@ -9,6 +9,7 @@ public class flashlightPickupTrigger : MonoBehaviour
     public GameObject flashlightOnDesk;
     private float flashlightInstructionTime = 0f;
     private bool Action = false;
+    private bool startCounter = false;
     //public void showCursor(bool active)
     //{
     //    Instructions[0].SetActive(active);
@@ -17,28 +18,34 @@ public class flashlightPickupTrigger : MonoBehaviour
     public void beginScript()
     {
         Action = true;
+        startCounter = true;
     }
-
 
     // Update is called once per frame
     void Update()
     {
+
         if (flashlightInstructionTime > 1.5f)
         {
             Instructions[1].SetActive(false);
+            startCounter = false;
+
         }
-        if (Instructions[1].activeSelf)
+        if (startCounter)
         {
             flashlightInstructionTime += Time.deltaTime;
         }
+
         if (Action)
-            {
-                Destroy(flashlightOnDesk);
-                flashlightOnHand.SetActive(true);
-                Instructions[1].SetActive(true);
-            }
+        {
+
+            flashlightOnDesk.GetComponent<MeshRenderer>().enabled = false;
+            flashlightOnDesk.GetComponent<CapsuleCollider>().enabled = false;
+            flashlightOnHand.SetActive(true);
+            Instructions[1].SetActive(true);
+        }
         Action = false;
-     
+
 
 
     }

@@ -4,51 +4,36 @@ using UnityEngine;
 
 public class LightEnable : MonoBehaviour
 {
-   public GameObject Instruction;
+    public GameObject Instruction;
     public GameObject light;
 
     public bool Action = false;
     private bool opened = false;
     // Start is called before the first frame update
-    void Start()
+    public void beginScript()
     {
-        Instruction.GetComponent<MeshRenderer>().enabled = true;
-        Instruction.SetActive(false);
+        Action = true;
     }
-    void OnTriggerStay(Collider collison)
-    {
-        if (collison.transform.tag == "Player")
-        {
-            Instruction.SetActive(true);
-            Action = true;
-        }
-    }
-    void OnTriggerExit(Collider collision)
-    {
-        Instruction?.SetActive(false);
-        Action = false;
-    }
-    
-    // Update is called once per frame
+
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.E))
+
+        if (Action)
         {
-            if(Action){
-                if(opened){
+            if (opened)
+            {
                 light.GetComponent<Light>().enabled = false;
-                    opened = !opened;
-                }
-                else
-                {
-                    light.GetComponent<Light>().enabled = true;
-                    opened = !opened;
-                }
+                opened = !opened;
             }
-            Action = false;
+            else
+            {
+                light.GetComponent<Light>().enabled = true;
+                opened = !opened;
+            }
         }
-        
+        Action = false;
+
 
     }
 }

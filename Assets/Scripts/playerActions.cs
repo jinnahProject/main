@@ -8,12 +8,14 @@ public class playerActions : MonoBehaviour
     public float playerActivateDistence;
     bool active = false;
     public GameObject cursor;
+    bool picked = false;
     // Update is called once per frame
 
     private void Update()
     {
         RaycastHit hit;
         active = Physics.Raycast(cam.position, cam.TransformDirection(Vector3.forward), out hit, playerActivateDistence);
+
 
         if (active)
         {
@@ -25,6 +27,7 @@ public class playerActions : MonoBehaviour
                 {
                     hit.transform.GetComponent<flashlightPickupTrigger>().beginScript();
                 }
+
             }
             else if (hit.transform.tag == "Battery")
             {
@@ -69,6 +72,15 @@ public class playerActions : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     hit.transform.GetComponent<KeyPicker>().beginScript();
+
+                }
+            }
+            else if (hit.transform.tag == "Lamp")
+            {
+                cursor.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    hit.transform.GetComponent<LightEnable>().beginScript();
 
                 }
             }

@@ -9,6 +9,8 @@ TagManager:
   - Battery
   - Drawer
   - Cabinet
+  - Key
+  - Lamp
   layers:
   - Default
   - TransparentFX
