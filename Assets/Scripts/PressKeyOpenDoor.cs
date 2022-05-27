@@ -24,7 +24,7 @@ public class PressKeyOpenDoor : MonoBehaviour
         AnimeObject.GetComponent<Animator>().Play("DoorOpen");
         opened = !opened;
         anim.SetBool("Opened", !opened);
-
+        print("enemy kapýyý açtý ");
     }
     public bool canEnemyOpenDoor()
     {

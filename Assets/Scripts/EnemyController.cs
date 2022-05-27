@@ -9,9 +9,10 @@ public class EnemyController : MonoBehaviour
     /// <Patrolling>
     public Vector3 walkPoint;
     bool walkPointSet;
-    public float walkPointRange; 
+    public float walkPointRange;
     /// </Patrolling>
-
+    private float enemyMoveCheckX = 0f;
+    private float enemyMoveCheckZ = 0f;
 
     public float lookRadius = 10f;
 
@@ -24,7 +25,17 @@ public class EnemyController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         
     }
-
+    private bool EnemyMovingOrNot()
+    {
+        if (enemyMoveCheckZ == transform.position.z && enemyMoveCheckX == transform.position.x)
+        {
+            return false;
+        }
+        else
+        {
+            return true;    
+        }
+    } 
     // Update is called once per frame
     void Update()
     {
@@ -44,6 +55,15 @@ public class EnemyController : MonoBehaviour
         {
             Patroling();
         }
+        if (!EnemyMovingOrNot())
+        {
+             SearchWalkPoint();
+
+        }
+
+        enemyMoveCheckZ = transform.position.z;
+        enemyMoveCheckX = transform.position.x;
+
     }
     public void Patroling()
     {
