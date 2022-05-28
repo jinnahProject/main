@@ -23,6 +23,7 @@ public class TaskManager : MonoBehaviour
         }
         return strikethrough;
     }
+
     void changeTask(string taskTxt, GameObject gameObject,int taskOrd)
     {
         task.text = taskTxt;

@@ -11,6 +11,10 @@ public class PressKeyOpenDoor : MonoBehaviour
     private float animTime = 1f;
     public bool doIHaveKey = true;
     public AudioClip lockedDoorSound;
+    public AudioClip DoorCreakSound;
+    private float nextSoundTimer = 0f;
+    private bool soundPlayed = false;
+    public AudioClip closeDoorSound;
 
     public bool locked;
 
@@ -24,7 +28,17 @@ public class PressKeyOpenDoor : MonoBehaviour
         AnimeObject.GetComponent<Animator>().Play("DoorOpen");
         opened = !opened;
         anim.SetBool("Opened", !opened);
-        print("enemy kapýyý açtý ");
+        if (opened)
+        {
+            AnimeObject.GetComponent<AudioSource>().PlayOneShot(DoorCreakSound,0.5f);
+        }
+        else
+        {
+            AnimeObject.GetComponent<AudioSource>().PlayOneShot(DoorCreakSound,0.5f);
+            soundPlayed = true;
+
+
+        }
     }
     public bool canEnemyOpenDoor()
     {
@@ -49,6 +63,18 @@ public class PressKeyOpenDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (soundPlayed)
+        {
+            nextSoundTimer += Time.deltaTime;
+        }
+        if (nextSoundTimer >= 0.75f)
+        {
+            AnimeObject.GetComponent<AudioSource>().PlayOneShot(closeDoorSound,0.7f);
+            nextSoundTimer = 0f;
+            soundPlayed = false;
+
+        }
+
         if (this.locked)
         {
             checkKey();
