@@ -1,0 +1,1187 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'tr' Physical Memory: 8134 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/cagri/Desktop/Yeni klasör (2)/main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63756
+Successfully changed project path to: C:/Users/cagri/Desktop/Yeni klasör (2)/main
+C:/Users/cagri/Desktop/Yeni klasör (2)/main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 56.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cagri/Desktop/Yeni klasör (2)/main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 470 Graphics (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   30.0.15021.11005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010717 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Domain Reload Profiling:
+	ReloadAssembly (860ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (605ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Domain Reload Profiling:
+	ReloadAssembly (901ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (594ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Failed to load shader (instanceID 396, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (56.5 KB). Loaded Objects now: 532.
+Memory consumption went from 32.2 MB to 32.1 MB.
+Total: 2.692900 ms (FindLiveObjects: 0.050900 ms CreateObjectMapping: 0.006000 ms MarkObjects: 2.556600 ms  DeleteObjects: 0.078500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1318525.117052 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/ScreensMetalsNew/MultiLampScreen_Type13_Mat5_Metals.obj
+  artifactKey: Guid(1c2bf52e368433e4ab67d1c2ee7bec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/ScreensMetalsNew/MultiLampScreen_Type13_Mat5_Metals.obj using Guid(1c2bf52e368433e4ab67d1c2ee7bec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00c51be5f976861ec3fb9737158b3a7') in 0.260466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type12_Mat11.obj
+  artifactKey: Guid(1fe72f3e3752740488dc8f1c3e03b8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type12_Mat11.obj using Guid(1fe72f3e3752740488dc8f1c3e03b8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e5347f0c2244a02457f05cf3d8dad7') in 0.065348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type12_Mat6.obj
+  artifactKey: Guid(03e69282a33a48746b37f1688c5fa620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type12_Mat6.obj using Guid(03e69282a33a48746b37f1688c5fa620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347777c09b5063cc38008ee3eb7dfbe9') in 0.046518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/ScreensMetalsNew/MultiLampScreen_Type13_Mat3_Metals.obj
+  artifactKey: Guid(41330954370c5dc40815ecae5fed352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/ScreensMetalsNew/MultiLampScreen_Type13_Mat3_Metals.obj using Guid(41330954370c5dc40815ecae5fed352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878f3681b555aad35cbff2a6b1a6fcda') in 0.059316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/ScreensMetalsNew/MultiLampScreen_Type13_Mat1_Metals.obj
+  artifactKey: Guid(242448f42d33cd24a97528fa927ffcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/ScreensMetalsNew/MultiLampScreen_Type13_Mat1_Metals.obj using Guid(242448f42d33cd24a97528fa927ffcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35c912d3d1889cae94f0cf6fd1c53e5') in 0.030448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type12_Mat13.obj
+  artifactKey: Guid(543123d2809b364419283eea10a633f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type12_Mat13.obj using Guid(543123d2809b364419283eea10a633f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54b11aba59a2769593a0e969b891ca1') in 0.049103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type12_Mat5.obj
+  artifactKey: Guid(585eb1838718e834cb0900a38620120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type12_Mat5.obj using Guid(585eb1838718e834cb0900a38620120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999ba9ce09813ae4398bea4c9dec6a17') in 0.024576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type13_Mat12.obj
+  artifactKey: Guid(b871249b64a7dfb4283506880137323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type13_Mat12.obj using Guid(b871249b64a7dfb4283506880137323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0f20374e24d9bde78917accbd737a9') in 0.114511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type13_Mat8.obj
+  artifactKey: Guid(7a4cd866e8b98dd4192fcdea001bf369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type13_Mat8.obj using Guid(7a4cd866e8b98dd4192fcdea001bf369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8866f19cc1228ed350cc7270f070e39a') in 0.151949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/ScreensMetalsNew/MultiLampScreen_Type13_Mat4_Metals.obj
+  artifactKey: Guid(d7485008d5eaf9049bdb2185bd0c1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/ScreensMetalsNew/MultiLampScreen_Type13_Mat4_Metals.obj using Guid(d7485008d5eaf9049bdb2185bd0c1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310c4f7bd838cbd8f2894dffe4d17e26') in 0.043133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type12_Mat16.obj
+  artifactKey: Guid(fdcefb42ff3aa9e48a051d83c7fe6216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/Screens/MultiLampScreen_Type12_Mat16.obj using Guid(fdcefb42ff3aa9e48a051d83c7fe6216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431fc98091e4a7b9add27283b3b4d7dd') in 0.028573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/ScreensMetalsNew/MultiLampScreen_Type12_Mat3_Metals.obj
+  artifactKey: Guid(1d5aa42ef0cbab1498a30c38b1c141cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Lamps/Screens/ScreensMetalsNew/MultiLampScreen_Type12_Mat3_Metals.obj using Guid(1d5aa42ef0cbab1498a30c38b1c141cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d5aad3fc329f0d4d38c3abd5485533') in 0.022146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BloodDecalsAndEffects/TiledRoom/Materials/TileMaterial.mat
+  artifactKey: Guid(c21bf17a6d2ca0140a9154a1e740ae60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/TiledRoom/Materials/TileMaterial.mat using Guid(c21bf17a6d2ca0140a9154a1e740ae60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a92e7ed355f0ee81cb5beb8a8c77ff') in 0.909401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.474690 seconds.
+  path: Assets/BloodDecalsAndEffects/TiledRoom
+  artifactKey: Guid(544b7cc5a79c97f429e81cc65adfcaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/TiledRoom using Guid(544b7cc5a79c97f429e81cc65adfcaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a2217cfa7af90456dbdc33ee2ef893') in 0.008848 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005364 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (599ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 396, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (24.5 KB). Loaded Objects now: 574.
+Memory consumption went from 36.2 MB to 36.1 MB.
+Total: 2.387800 ms (FindLiveObjects: 0.075300 ms CreateObjectMapping: 0.004900 ms MarkObjects: 2.302100 ms  DeleteObjects: 0.004500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 473.765178 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type1_PLFull.obj
+  artifactKey: Guid(cb9d813a01e18d4438da2c96b82aa442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type1_PLFull.obj using Guid(cb9d813a01e18d4438da2c96b82aa442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17db41b340dee0f649c43a6a4e0cd4f') in 0.228470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type15_PLFull.obj
+  artifactKey: Guid(ea041d2554390c04487c3411f6c24b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type15_PLFull.obj using Guid(ea041d2554390c04487c3411f6c24b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b49ef5ec6afc626ca6258331cc700bf') in 0.073786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type16_PLFull.obj
+  artifactKey: Guid(2bc19520daf31f8449f5f07730a4c2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type16_PLFull.obj using Guid(2bc19520daf31f8449f5f07730a4c2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9fc8c9d09d23cfe4ac20b1e32f9bdf') in 0.103960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type13_PLFull.obj
+  artifactKey: Guid(a19c69e00789e5f4e933fe511d162777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type13_PLFull.obj using Guid(a19c69e00789e5f4e933fe511d162777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddd6c1e04342b31a25095b399b993ab') in 0.079001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type3_PLFull.obj
+  artifactKey: Guid(2416f4a22cd340548abe750457903149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type3_PLFull.obj using Guid(2416f4a22cd340548abe750457903149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5e82f719978be353f07497b26497cc') in 0.274625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type12_PLFull.obj
+  artifactKey: Guid(dcb8992c8a3074541ac3670d35032b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type12_PLFull.obj using Guid(dcb8992c8a3074541ac3670d35032b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f522ab3b7e0fcf71165744c6379e8dd') in 0.053328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type4_PLFull.obj
+  artifactKey: Guid(0cc07263968176a4fb4df546dd7dc9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type4_PLFull.obj using Guid(0cc07263968176a4fb4df546dd7dc9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751f54a450cabb11a9080e00d464bbaf') in 0.049029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type10_PLFull.obj
+  artifactKey: Guid(e0658b00994d6d14b84c39008159d1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/BedPillows/BedPillow_LongRound_1Type10_PLFull.obj using Guid(e0658b00994d6d14b84c39008159d1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15da5880e7c2b1c03729ecede7ea74d') in 0.050270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.362917 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds
+  artifactKey: Guid(fcbfafe2ffced9c469278057d566b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds using Guid(fcbfafe2ffced9c469278057d566b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f411a3b36e78e558f7c46f7a277edaa') in 0.010340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040348 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type10_PLFull.obj
+  artifactKey: Guid(281b52c7e5a741c4980f667bd9026fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type10_PLFull.obj using Guid(281b52c7e5a741c4980f667bd9026fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4b71be659d889a1c0b5c42c2fd19d7') in 0.116845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.586406 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type12_PLFull.obj
+  artifactKey: Guid(b4aef953ad9c3e74383e3c8d84f058ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type12_PLFull.obj using Guid(b4aef953ad9c3e74383e3c8d84f058ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090302f74df486975b1f068906d64f3a') in 0.041441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type14_PLFull.obj
+  artifactKey: Guid(fcb36bfe87d5af44c9f05b91cddcc95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type14_PLFull.obj using Guid(fcb36bfe87d5af44c9f05b91cddcc95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6548aa0645e22a1a9b20612245c0d72f') in 0.050923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.001128 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type1_Cloth.obj
+  artifactKey: Guid(b2a66386dc4cd4c4c8e4e819d8295a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type1_Cloth.obj using Guid(b2a66386dc4cd4c4c8e4e819d8295a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a246ed070e2a5670af5b79d4ae0deac') in 0.073993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type16_PLFull.obj
+  artifactKey: Guid(26bcd1c509969f844853e8607587ae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type16_PLFull.obj using Guid(26bcd1c509969f844853e8607587ae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0404d7e2dc229aab686b74c7e53bbdf7') in 0.098990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type4_Cloth.obj
+  artifactKey: Guid(78b0a97946d679d40b7c08e08f79ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type4_Cloth.obj using Guid(78b0a97946d679d40b7c08e08f79ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c57df0148ca29635a4e878dc30dcfd8') in 0.198287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type15_PLFull.obj
+  artifactKey: Guid(781b107f73849c6479ea93716382deb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type15_PLFull.obj using Guid(781b107f73849c6479ea93716382deb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed67ee90b7a33152ae1b1c88c49439e8') in 0.080011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type12_PLFull.obj
+  artifactKey: Guid(d0815f2147d5b21439f98fe93a80b9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type12_PLFull.obj using Guid(d0815f2147d5b21439f98fe93a80b9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205fbdfb6ad4f93c43274128385cb1fd') in 0.068105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type4_PLFull.obj
+  artifactKey: Guid(23de3abfc2375e24fb9d274e88e8e04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type4_PLFull.obj using Guid(23de3abfc2375e24fb9d274e88e8e04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbd7480f99a18a3879d3aadc717b152') in 0.108466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type13_PLFull.obj
+  artifactKey: Guid(1df7714e9081fd9449ecf25c8284f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type13_PLFull.obj using Guid(1df7714e9081fd9449ecf25c8284f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abb5b6982ad938323c73be7f6b3ef54') in 0.047526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type11_PLFull.obj
+  artifactKey: Guid(170e9d0e86b38e44181ef144de047806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type11_PLFull.obj using Guid(170e9d0e86b38e44181ef144de047806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37133715cab835a7e39d0058d1a2b5d9') in 0.048798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type6_PLFull.obj
+  artifactKey: Guid(a85756cf1d62cca4b92162587fb0fac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type6_PLFull.obj using Guid(a85756cf1d62cca4b92162587fb0fac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de4e9e5666126dd36d9beb81ec8cb2b') in 0.063405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type5_PLFull.obj
+  artifactKey: Guid(b2a06e15cf7aaf841b8b300cbbe51716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type5_PLFull.obj using Guid(b2a06e15cf7aaf841b8b300cbbe51716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd40b10b16f14a00d133079115ba1d8b') in 0.049077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type8_PLFull.obj
+  artifactKey: Guid(aa989f862f222804bb6ac0c7b3f3f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type8_PLFull.obj using Guid(aa989f862f222804bb6ac0c7b3f3f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63da3a74efb19a81a54fa049d26f895') in 0.046058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type1_PLFull.obj
+  artifactKey: Guid(2b23547242b38ed4b9d44981879cdaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type1_PLFull.obj using Guid(2b23547242b38ed4b9d44981879cdaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55b6478241587f3fbff327b93322c65') in 0.054404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type5_PLFull.obj
+  artifactKey: Guid(4de79e786fc362d42a3ce7ee1ec024a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type5_PLFull.obj using Guid(4de79e786fc362d42a3ce7ee1ec024a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ff7845851f43d2a93ed2576da5475c') in 0.067466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type7_Cloth.obj
+  artifactKey: Guid(4d7c7d2e2b4486546aaffa07ea29a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type7_Cloth.obj using Guid(4d7c7d2e2b4486546aaffa07ea29a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79af060cefa7baa206b8c4bb85b221f7') in 0.066078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type5_PLFull.obj
+  artifactKey: Guid(4abb5a92d28ffe94ab76374fee7508c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type5_PLFull.obj using Guid(4abb5a92d28ffe94ab76374fee7508c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b723a1eba0d0a1a1c64ea9c7d351d8c') in 0.057319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type8_PLFull.obj
+  artifactKey: Guid(2c8d496ca4298d14c942a0a58efb7687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type8_PLFull.obj using Guid(2c8d496ca4298d14c942a0a58efb7687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d00d0ff11783bf49e799c6a33a1b0e3') in 0.067599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type2_Cloth.obj
+  artifactKey: Guid(857b4d77f4303e84a9d306ac14678ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type2_Cloth.obj using Guid(857b4d77f4303e84a9d306ac14678ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2176399359c844409184d9b4bcf8d853') in 0.081285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type14_PLFull.obj
+  artifactKey: Guid(a3ab64902f14c9c4da2a00ec38ccd00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type14_PLFull.obj using Guid(a3ab64902f14c9c4da2a00ec38ccd00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e06ae2f86fbcd1cf8971637793473a') in 0.136296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type9_PLFull.obj
+  artifactKey: Guid(5bb65d06e3ad087408959ce446782954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type9_PLFull.obj using Guid(5bb65d06e3ad087408959ce446782954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32d091579c6ed49126840d510accaa2') in 0.067770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type7_Cloth.obj
+  artifactKey: Guid(94a577b6bde716d48a9614eff6c37cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type7_Cloth.obj using Guid(94a577b6bde716d48a9614eff6c37cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4786e72d0891d53880a0f0d7740d41f') in 0.047746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type10_PLFull.obj
+  artifactKey: Guid(63e1e78e9e1f1164694e3dbebe9c84b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type10_PLFull.obj using Guid(63e1e78e9e1f1164694e3dbebe9c84b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e2f32a99fd11d034729ceaef7d67b1') in 0.056553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type3_PLFull.obj
+  artifactKey: Guid(138e0b346409516439cd89bae11d4035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type3_PLFull.obj using Guid(138e0b346409516439cd89bae11d4035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6341099cf3f0ffb8c7c0f0424de28164') in 0.068214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type2_Cloth.obj
+  artifactKey: Guid(f272695adfa62cf458a768e1db2e5fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type2_Cloth.obj using Guid(f272695adfa62cf458a768e1db2e5fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26155b28d10ddd89263d23a8815eec7b') in 0.059524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type2_PLFull.obj
+  artifactKey: Guid(2dd49ac36aa51bd498a76e610629602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type2_PLFull.obj using Guid(2dd49ac36aa51bd498a76e610629602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6858e2b1ad9002405801244eaf0806') in 0.041429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type10_PLFull.obj
+  artifactKey: Guid(281b52c7e5a741c4980f667bd9026fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type10_PLFull.obj using Guid(281b52c7e5a741c4980f667bd9026fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5920afa1092bd6544a7b2f43ab74b763') in 0.033713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type9_PLFull.obj
+  artifactKey: Guid(54087caee2f5870469271cf5303e1c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type9_PLFull.obj using Guid(54087caee2f5870469271cf5303e1c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5091a7a78b5615642bb26577f4b08ac') in 0.065345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type10_PLFull.obj
+  artifactKey: Guid(86ec808cf8de9be40bc6ec80b68cb1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type10_PLFull.obj using Guid(86ec808cf8de9be40bc6ec80b68cb1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391c5da25da77fc10fb5bbcf5632cd95') in 0.084370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type8_PLFull.obj
+  artifactKey: Guid(1539e19b4c55c6140bd98bd9130252d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type8_PLFull.obj using Guid(1539e19b4c55c6140bd98bd9130252d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec14912367fcd15813b32b6626c3c61') in 0.057726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type13_PLFull.obj
+  artifactKey: Guid(d3c53b59d2a0d8145a0a7992e96825ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type13_PLFull.obj using Guid(d3c53b59d2a0d8145a0a7992e96825ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b99e9d2328f658e9155d210e5c63150') in 0.047959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type6_PLFull.obj
+  artifactKey: Guid(3c25bf6005b6be34cafbb93158809625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type6_PLFull.obj using Guid(3c25bf6005b6be34cafbb93158809625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf33792b3acc29dbdd2ab400b4312f13') in 0.068924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type4_PLFull.obj
+  artifactKey: Guid(efd8ad82c610128488b3534bd27cbc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type4_PLFull.obj using Guid(efd8ad82c610128488b3534bd27cbc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd615fb225632eb2ef643aba091880b79') in 0.065164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type2_PLFull.obj
+  artifactKey: Guid(70b0ecc5c27f4d94a98af7cb560bf6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type2_PLFull.obj using Guid(70b0ecc5c27f4d94a98af7cb560bf6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6352bc64fe772587c2dbe897066f63a6') in 0.063571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type1_PLFull.obj
+  artifactKey: Guid(91f847a1d3e0db045ad45cae39456e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type1_PLFull.obj using Guid(91f847a1d3e0db045ad45cae39456e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd153bf3feb6c40afc441dd9e78ffb987') in 0.116316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type1_Cloth.obj
+  artifactKey: Guid(fbdde2f24a5165446954189da0c56878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type1_Cloth.obj using Guid(fbdde2f24a5165446954189da0c56878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b097c9956614ba8a8eb72a61aada1db') in 0.040695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type5_Cloth.obj
+  artifactKey: Guid(017712edfef1fc741bb2651514915382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type5_Cloth.obj using Guid(017712edfef1fc741bb2651514915382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94daa24c2e901fe0eb10089aa5b82a8') in 0.051612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type1_Cloth.obj
+  artifactKey: Guid(15cfcbba0836a474a933aeb695dcfe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type1_Cloth.obj using Guid(15cfcbba0836a474a933aeb695dcfe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ee0b107c74858697f2774bab85b726') in 0.099360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type9_PLFull.obj
+  artifactKey: Guid(362b6d987a4646746aaa60829ecab706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type9_PLFull.obj using Guid(362b6d987a4646746aaa60829ecab706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f325ad5b495fea21decc78085f4f25b') in 0.181809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type12_PLFull.obj
+  artifactKey: Guid(238f4185612b85949a828dbabb673594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type12_PLFull.obj using Guid(238f4185612b85949a828dbabb673594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b57dcb356e21673a5641a59c1d7cb20') in 0.084234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001339 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type4_Cloth.obj
+  artifactKey: Guid(b0bf1ab7761746c409b3d04b51b80f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type4_Cloth.obj using Guid(b0bf1ab7761746c409b3d04b51b80f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cfcbbb0ccc484f5ce557e789158da0') in 0.051306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type16_PLFull.obj
+  artifactKey: Guid(78a5bb5fa7258914e81815f9ead39d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type16_PLFull.obj using Guid(78a5bb5fa7258914e81815f9ead39d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c5e37d7b5410a1dc43f1b40df5ca49') in 0.117760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type3_Cloth.obj
+  artifactKey: Guid(e02e9776c5330bb46958767ee79831bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type3_Cloth.obj using Guid(e02e9776c5330bb46958767ee79831bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c450cb07adf4e55be383e51c493c62') in 0.046079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type5_PLFull.obj
+  artifactKey: Guid(7cccf7a4be17c4440a38d403958aaac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type5_PLFull.obj using Guid(7cccf7a4be17c4440a38d403958aaac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dda7a8d48610b30de68d1263bb4f16') in 0.059477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type11_PLFull.obj
+  artifactKey: Guid(c9cb0ca4885a3064db6b7668321d2395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type11_PLFull.obj using Guid(c9cb0ca4885a3064db6b7668321d2395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058d9c611d38a873a4d45fef6cc40f2f') in 0.046396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type3_PLFull.obj
+  artifactKey: Guid(36a8d2af7062f1a4686455f504584756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type3_PLFull.obj using Guid(36a8d2af7062f1a4686455f504584756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed1790f7ccb45d03f8b6d228e98872b') in 0.048604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type11_PLFull.obj
+  artifactKey: Guid(7db796069ba8c4f45a724af3dc5654eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type11_PLFull.obj using Guid(7db796069ba8c4f45a724af3dc5654eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5c0ed389db6acaa21d0e9a75352f18') in 0.050930 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1035ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (729ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 396, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 1.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (24.5 KB). Loaded Objects now: 574.
+Memory consumption went from 36.3 MB to 36.3 MB.
+Total: 2.315300 ms (FindLiveObjects: 0.051600 ms CreateObjectMapping: 0.005200 ms MarkObjects: 2.251700 ms  DeleteObjects: 0.005800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 117.489586 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type1_Cloth.obj
+  artifactKey: Guid(b2a66386dc4cd4c4c8e4e819d8295a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type1_Cloth.obj using Guid(b2a66386dc4cd4c4c8e4e819d8295a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0126c170c05e37c5ab9f37135e9cfd8') in 0.147449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type16_PLFull.obj
+  artifactKey: Guid(26bcd1c509969f844853e8607587ae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type16_PLFull.obj using Guid(26bcd1c509969f844853e8607587ae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3255b9893cf0dc25510a247bba1f43d6') in 0.024433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type6_Cloth.obj
+  artifactKey: Guid(a3300886438d087468d1f8dfa3752035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type6_Cloth.obj using Guid(a3300886438d087468d1f8dfa3752035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba06f8657d6a4302feb4da9704b69d88') in 0.030828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type15_PLFull.obj
+  artifactKey: Guid(781b107f73849c6479ea93716382deb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type15_PLFull.obj using Guid(781b107f73849c6479ea93716382deb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be163681d2682e1748ac0b38f6f806f5') in 0.025554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type8_Cloth.obj
+  artifactKey: Guid(b11cc6b94d53fef49b4f84dd04ff7725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type8_Cloth.obj using Guid(b11cc6b94d53fef49b4f84dd04ff7725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2c603c202811cd89e513a384712f58') in 0.041976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type4_PLFull.obj
+  artifactKey: Guid(23de3abfc2375e24fb9d274e88e8e04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type4_PLFull.obj using Guid(23de3abfc2375e24fb9d274e88e8e04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243e91dd5723d96751df0210972b762f') in 0.045709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type3_Cloth.obj
+  artifactKey: Guid(4a6808e5ab0b5aa4284bb3e679d6aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type3_Cloth.obj using Guid(4a6808e5ab0b5aa4284bb3e679d6aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53a438ae2e1d066a3fb25694e41072d') in 0.042624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type6_Cloth.obj
+  artifactKey: Guid(b74c2996160de5f47ac5d7734e912b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type6_Cloth.obj using Guid(b74c2996160de5f47ac5d7734e912b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61eee6191985bf205c4a5b3efbe27cf0') in 0.039116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type7_PLFull.obj
+  artifactKey: Guid(4dcf6d755b36ea849a7aac88902e4efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type7_PLFull.obj using Guid(4dcf6d755b36ea849a7aac88902e4efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78b6ce4d23ce2295cc8adf6f4b065a5') in 0.033216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type6_Cloth.obj
+  artifactKey: Guid(e49757ed92a45ea4c9d291c37422eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type6_Cloth.obj using Guid(e49757ed92a45ea4c9d291c37422eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b4ec70ce7cef26a5147a7db87af7a4') in 0.034082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type15_PLFull.obj
+  artifactKey: Guid(f8330d4a545c223478035bf45c8e4fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type15_PLFull.obj using Guid(f8330d4a545c223478035bf45c8e4fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41b0989e7068a12acf96eeecd6e4160') in 0.043429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type11_PLFull.obj
+  artifactKey: Guid(b79cde124a033eb43ab157ca4ac37406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type11_PLFull.obj using Guid(b79cde124a033eb43ab157ca4ac37406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3469f52b79a0a4332af2368d30934827') in 0.032992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type3_PLFull.obj
+  artifactKey: Guid(4540429e2a046f04c9b9b51a48771dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type3_PLFull.obj using Guid(4540429e2a046f04c9b9b51a48771dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bd626d8b77e2af2881c7da58abe7d9') in 0.039922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004304 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type7_Cloth.obj
+  artifactKey: Guid(4d7c7d2e2b4486546aaffa07ea29a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type7_Cloth.obj using Guid(4d7c7d2e2b4486546aaffa07ea29a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ae2b871bdff22d633d70f0def72b50') in 0.049025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type5_PLFull.obj
+  artifactKey: Guid(4abb5a92d28ffe94ab76374fee7508c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type5_PLFull.obj using Guid(4abb5a92d28ffe94ab76374fee7508c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4699b9628455e91ede2b8899760acb8') in 0.057039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000886 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type1_PLFull.obj
+  artifactKey: Guid(ea3ebe83a2eba9c4eb89d2a2be0b7c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type1_PLFull.obj using Guid(ea3ebe83a2eba9c4eb89d2a2be0b7c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bf868705fc687719120b63ccd77797') in 0.040237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type4_PLFull.obj
+  artifactKey: Guid(2fe2845d4d6476d4a852f922c875d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type4_PLFull.obj using Guid(2fe2845d4d6476d4a852f922c875d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8191d9adc5767a1962e2c849cbe9585e') in 0.031299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type9_PLFull.obj
+  artifactKey: Guid(bd5ef58f66e42c0478c3f28142a22fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type9_PLFull.obj using Guid(bd5ef58f66e42c0478c3f28142a22fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51f4203713c239d3c7fee6a61c432da') in 0.048851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type9_PLFull.obj
+  artifactKey: Guid(5bb65d06e3ad087408959ce446782954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type9_PLFull.obj using Guid(5bb65d06e3ad087408959ce446782954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c579f7d2828c23403a7a24c0fe6a18') in 0.041929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type7_Cloth.obj
+  artifactKey: Guid(94a577b6bde716d48a9614eff6c37cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type7_Cloth.obj using Guid(94a577b6bde716d48a9614eff6c37cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a27394caa5177a800b724a6d2e45cd9') in 0.033007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type10_PLFull.obj
+  artifactKey: Guid(63e1e78e9e1f1164694e3dbebe9c84b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type10_PLFull.obj using Guid(63e1e78e9e1f1164694e3dbebe9c84b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b14e16aa74bd8768fa344715bc832b5') in 0.037332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type3_PLFull.obj
+  artifactKey: Guid(138e0b346409516439cd89bae11d4035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type3_PLFull.obj using Guid(138e0b346409516439cd89bae11d4035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10f9bac66e0ac5ed00254642c972bdc') in 0.049667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type2_Cloth.obj
+  artifactKey: Guid(f272695adfa62cf458a768e1db2e5fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type2_Cloth.obj using Guid(f272695adfa62cf458a768e1db2e5fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9402cb018e7d4a61952fe93aad53c695') in 0.032078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type2_PLFull.obj
+  artifactKey: Guid(2dd49ac36aa51bd498a76e610629602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type2_PLFull.obj using Guid(2dd49ac36aa51bd498a76e610629602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baa68d98467ef4c0dd055612e7ba722') in 0.033799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type10_PLFull.obj
+  artifactKey: Guid(281b52c7e5a741c4980f667bd9026fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type10_PLFull.obj using Guid(281b52c7e5a741c4980f667bd9026fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c18e8d955659303242ad095a6e7829') in 0.046787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type9_PLFull.obj
+  artifactKey: Guid(54087caee2f5870469271cf5303e1c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type9_PLFull.obj using Guid(54087caee2f5870469271cf5303e1c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a193df3f7378fa50a66f4f233e84f37') in 0.035647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005494 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type8_Cloth.obj
+  artifactKey: Guid(70af47c8a3c09b44cb99dabfdb0bf194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type8_Cloth.obj using Guid(70af47c8a3c09b44cb99dabfdb0bf194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caa77f3635377bcb5793c49b492fed1') in 0.027165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type8_PLFull.obj
+  artifactKey: Guid(1539e19b4c55c6140bd98bd9130252d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type8_PLFull.obj using Guid(1539e19b4c55c6140bd98bd9130252d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b54de53ba50d53376f814a01ab9d5a') in 0.038118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type13_PLFull.obj
+  artifactKey: Guid(d3c53b59d2a0d8145a0a7992e96825ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type13_PLFull.obj using Guid(d3c53b59d2a0d8145a0a7992e96825ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536da28744aa3e354b4010f24c40304f') in 0.037119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type6_PLFull.obj
+  artifactKey: Guid(3c25bf6005b6be34cafbb93158809625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type6_PLFull.obj using Guid(3c25bf6005b6be34cafbb93158809625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2632972c025d623ef03d078da5abe5') in 0.034370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type4_PLFull.obj
+  artifactKey: Guid(efd8ad82c610128488b3534bd27cbc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type4_PLFull.obj using Guid(efd8ad82c610128488b3534bd27cbc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93bb6257861151f9e8b8bd42e08203a') in 0.037558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type2_PLFull.obj
+  artifactKey: Guid(70b0ecc5c27f4d94a98af7cb560bf6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type2_PLFull.obj using Guid(70b0ecc5c27f4d94a98af7cb560bf6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d81f12c732474af382dd21a0fbceb31') in 0.050016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type1_PLFull.obj
+  artifactKey: Guid(91f847a1d3e0db045ad45cae39456e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type1_PLFull.obj using Guid(91f847a1d3e0db045ad45cae39456e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be7a27b2c52704841706ee085a0ae31') in 0.039136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type10_PLFull.obj
+  artifactKey: Guid(30a7db805374b4d4d8dca4ed6bfa5f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type10_PLFull.obj using Guid(30a7db805374b4d4d8dca4ed6bfa5f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc684c66bd9f1f37b90ff1c9fc0d40c9') in 0.033941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type12_PLFull.obj
+  artifactKey: Guid(4ddc11ffde4c2c646875aaa68583a53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type12_PLFull.obj using Guid(4ddc11ffde4c2c646875aaa68583a53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8654e178a27a22183bb43c8a9507fe8') in 0.043169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type1_Cloth.obj
+  artifactKey: Guid(15cfcbba0836a474a933aeb695dcfe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type1_Cloth.obj using Guid(15cfcbba0836a474a933aeb695dcfe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2359b99f8fa3f489aaac4ccf6ce82f18') in 0.029658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type3_Cloth.obj
+  artifactKey: Guid(fea148643f3d7014e9a292c768d60311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type3_Cloth.obj using Guid(fea148643f3d7014e9a292c768d60311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f678c6929f3dc292a3b0560d3d707627') in 0.039298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type16_PLFull.obj
+  artifactKey: Guid(69b204b6e4a810f4e894812321fffdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type16_PLFull.obj using Guid(69b204b6e4a810f4e894812321fffdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dba77c73ebc985a87144e3734bd9706') in 0.049451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type8_PLFull.obj
+  artifactKey: Guid(e58e27e93a5b2b64382603273f5dd559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type8_PLFull.obj using Guid(e58e27e93a5b2b64382603273f5dd559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58f032465ab31f8398bf2d3b300afe9') in 0.034343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type7_PLFull.obj
+  artifactKey: Guid(b8e59a219db3e6d45a8213c55715cc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type7_PLFull.obj using Guid(b8e59a219db3e6d45a8213c55715cc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af087b8050e9c0f5c3f3eb6993bbea1') in 0.030573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type2_Cloth.obj
+  artifactKey: Guid(bca1bf8337e57ef43b90e1023484aeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type2_Cloth.obj using Guid(bca1bf8337e57ef43b90e1023484aeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8869166e5b6fd5163ffbfed797d04de') in 0.038469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type5_PLFull.obj
+  artifactKey: Guid(7cccf7a4be17c4440a38d403958aaac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Blanket_1Type5_PLFull.obj using Guid(7cccf7a4be17c4440a38d403958aaac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab00ab13d9a8bf4cc2361abb5ec83eeb') in 0.035914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type11_PLFull.obj
+  artifactKey: Guid(c9cb0ca4885a3064db6b7668321d2395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Matress_1Type11_PLFull.obj using Guid(c9cb0ca4885a3064db6b7668321d2395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9104d6a5d8f4484bcd43560516f1fc') in 0.035750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type7_PLFull.obj
+  artifactKey: Guid(985c795294f946b48b8c656759ef0039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_Decoration_1Type7_PLFull.obj using Guid(985c795294f946b48b8c656759ef0039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bd0215477410a631a5737b88f57b17') in 0.046716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type7_PLFull.obj
+  artifactKey: Guid(c114799da8e4c4f4cb79a91f3da6c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Bedroom/LongBeds/Bed_DecorationExtras_1Type7_PLFull.obj using Guid(c114799da8e4c4f4cb79a91f3da6c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed860878446d4858467b96021b2ae6b') in 0.042299 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005539 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (919ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (619ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 396, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 2.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (24.6 KB). Loaded Objects now: 574.
+Memory consumption went from 37.2 MB to 37.2 MB.
+Total: 4.490500 ms (FindLiveObjects: 0.070800 ms CreateObjectMapping: 0.006400 ms MarkObjects: 4.406600 ms  DeleteObjects: 0.005100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 107.891215 seconds.
+  path: Assets/BloodDecalsAndEffects/TiledRoom/Textures
+  artifactKey: Guid(e7738b7ec5f89714ea39f147306e039b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/TiledRoom/Textures using Guid(e7738b7ec5f89714ea39f147306e039b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d947be6f99a34f27cd41b39eedcea5') in 0.010449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.212001 seconds.
+  path: Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles
+  artifactKey: Guid(b513572d6ab617246b16473497e7de19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles using Guid(b513572d6ab617246b16473497e7de19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee9661534c5521f1dd5ac30cd23257d') in 0.010614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.902366 seconds.
+  path: Assets/Customizable_Furnture/Source/Textures/PC/Metallic_Smoothness Maps/Atlas1_Metallic_Smoothness.psd
+  artifactKey: Guid(88718502cdce7a14bb6740ac4f0c1c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Textures/PC/Metallic_Smoothness Maps/Atlas1_Metallic_Smoothness.psd using Guid(88718502cdce7a14bb6740ac4f0c1c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe25edfb4e8c13f5c45902c3ea7daec6') in 0.119767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Customizable_Furnture/Resources/Textures/Atlas_AllPictures_TextureDisplay.png
+  artifactKey: Guid(a1bc7612f92dc1548bfde9f8d2a70aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Resources/Textures/Atlas_AllPictures_TextureDisplay.png using Guid(a1bc7612f92dc1548bfde9f8d2a70aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdcaf98b65eefad25fce5469cb0028e') in 0.319238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Customizable_Furnture/Readme/SelectOption.png
+  artifactKey: Guid(895ee8ba31032e8478c5c1d85d8cf273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Readme/SelectOption.png using Guid(895ee8ba31032e8478c5c1d85d8cf273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd311c36c2fa7a2551fb98d81c691670d') in 0.059424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Customizable_Furnture/Resources/Textures/Atlas_All_TextureDisplay.png
+  artifactKey: Guid(9ee2a70a17aead640bf2af923e095987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Resources/Textures/Atlas_All_TextureDisplay.png using Guid(9ee2a70a17aead640bf2af923e095987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96f4e9748b9626e0712871aa2db960d') in 0.196368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.212610 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Rugs_oldEdit/Rug_Square_1.obj
+  artifactKey: Guid(7e1dc9ac7aede3a4390519ff76ba2f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Rugs_oldEdit/Rug_Square_1.obj using Guid(7e1dc9ac7aede3a4390519ff76ba2f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4b564c5e9ce9cce81dd9f6dfcf0d32') in 0.104646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Customizable_Furnture/Source/Models/Furniture/Rugs_oldEdit/Rug_Square_3.obj
+  artifactKey: Guid(263acbe2300dc2e40bbefc47aee25fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Source/Models/Furniture/Rugs_oldEdit/Rug_Square_3.obj using Guid(263acbe2300dc2e40bbefc47aee25fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683dfde160017518cb32311eee9b874c') in 0.043040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Decoration/Rugs/Square Rug.prefab
+  artifactKey: Guid(17664ce2f0aa4a9418a4ac5ef4cc73e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Decoration/Rugs/Square Rug.prefab using Guid(17664ce2f0aa4a9418a4ac5ef4cc73e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c122b009cd1750edd51b1764d60334') in 0.157866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 148.430350 seconds.
+  path: Assets/GameScene
+  artifactKey: Guid(3c140e428a7f6c54493dfb1a3aacb7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameScene using Guid(3c140e428a7f6c54493dfb1a3aacb7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1c4dcfec79afe0b0bc0d133d78478d') in 0.010540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031256 seconds.
+  path: Assets/GameScene/NavMesh.asset
+  artifactKey: Guid(a4a976241b739b843b9618f843aa7f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameScene/NavMesh.asset using Guid(a4a976241b739b843b9618f843aa7f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d111d9745b2cb40a2a9cd87ee0880b') in 0.009179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.016534 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX
+  artifactKey: Guid(c7f29bc7dd0ae8042a82757c9358baeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX using Guid(c7f29bc7dd0ae8042a82757c9358baeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e467e98319a514a4dfe510a5e62a47') in 0.007414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.000372 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/ChunkParticleSystem.prefab
+  artifactKey: Guid(d5f26854a8904624c8073139cd2eb346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/ChunkParticleSystem.prefab using Guid(d5f26854a8904624c8073139cd2eb346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e13f95068173e26394108fedb0955b5') in 0.304615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.248965 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/Gibblets
+  artifactKey: Guid(ce5250c20e2fbdf45b038d464268d449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/Gibblets using Guid(ce5250c20e2fbdf45b038d464268d449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2629cbcaf2c983e5a2c794e5ca37a3') in 0.022718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.949043 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/Models
+  artifactKey: Guid(2020a8281db94a740ba9bda537f567ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/Models using Guid(2020a8281db94a740ba9bda537f567ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515269479c0ee602785780d70f58e385') in 0.010790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.193052 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/Models/RockSet2.obj
+  artifactKey: Guid(16de22c3bd0cb9947b0911a828f6c952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/Models/RockSet2.obj using Guid(16de22c3bd0cb9947b0911a828f6c952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f32690d84d401a0cc70bd1914708a7e') in 0.082951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.609085 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood
+  artifactKey: Guid(789822ae227daba40b3c8fe332a5abd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood using Guid(789822ae227daba40b3c8fe332a5abd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4dee76bc31f5e1f4025eb8247cdd8b') in 0.010625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.019643 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Textures
+  artifactKey: Guid(2746d528125eb654a95a62d4254264e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Textures using Guid(2746d528125eb654a95a62d4254264e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbf757dd890982bca74ed3c731df36c') in 0.003276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.240161 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Textures/Brains_Diffuse.png
+  artifactKey: Guid(204abc37f1ef2084c8551a7afbe60edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Textures/Brains_Diffuse.png using Guid(204abc37f1ef2084c8551a7afbe60edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7752153aeea7a334e7a6f7bd0cf0f2') in 0.088844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Textures/Brains_SpecGloss.png
+  artifactKey: Guid(3d94dcdf086297049943a0b0e7566fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Textures/Brains_SpecGloss.png using Guid(3d94dcdf086297049943a0b0e7566fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c5e20abeba3be49d3af9257321905e') in 0.027169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 587.234037 seconds.
+  path: Assets/kapiduvar.fbx
+  artifactKey: Guid(fdaaf23952f545f45913a277be1c75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kapiduvar.fbx using Guid(fdaaf23952f545f45913a277be1c75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7579417b7529ea0a8b995798e2215b9d') in 0.099907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/pencereduvari.fbx
+  artifactKey: Guid(90c2c92b9224e944c8da4e24c2b01f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pencereduvari.fbx using Guid(90c2c92b9224e944c8da4e24c2b01f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be6e0d47362c819ada6836fa1b747da') in 0.124241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.630676 seconds.
+  path: Assets/Assets_BathroomProps
+  artifactKey: Guid(10936c805d967ee4485b7e23e921d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_BathroomProps using Guid(10936c805d967ee4485b7e23e921d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cf87e63bb2eb50da4cd48cfb71c534') in 0.011959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.000852 seconds.
+  path: Assets/BloodDecalsAndEffects/TiledRoom
+  artifactKey: Guid(544b7cc5a79c97f429e81cc65adfcaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/TiledRoom using Guid(544b7cc5a79c97f429e81cc65adfcaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afc8c6d14eef9aa92fd088ce1a74902') in 0.007549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.152141 seconds.
+  path: Assets/BloodDecalsAndEffects/TiledRoom/Textures
+  artifactKey: Guid(e7738b7ec5f89714ea39f147306e039b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/TiledRoom/Textures using Guid(e7738b7ec5f89714ea39f147306e039b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3114ee508f62713a2fa3ea2509eb243') in 0.007664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.775357 seconds.
+  path: Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles
+  artifactKey: Guid(b513572d6ab617246b16473497e7de19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles using Guid(b513572d6ab617246b16473497e7de19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2194099527d3d75bda62c817e6bcc8') in 0.007340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.215493 seconds.
+  path: Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles/TilesAlbedo.png
+  artifactKey: Guid(a926a4504c5352c4ab3979e16ae091b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles/TilesAlbedo.png using Guid(a926a4504c5352c4ab3979e16ae091b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813a5bccaa55b4e1c3a283f8466a1800') in 0.019912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles/tilesNorm.png
+  artifactKey: Guid(6a01e39d8c58f6947bfcd5484de4c860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles/tilesNorm.png using Guid(6a01e39d8c58f6947bfcd5484de4c860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687b6c75cb1d8fba8bd4b02b05128e6b') in 0.039437 seconds 
