@@ -344,14 +344,12 @@
 "Assets/Scripts/EnemyRespawn.cs"
 "Assets/Scripts/FlashlightManager.cs"
 "Assets/Scripts/flashlightPickupTrigger.cs"
-"Assets/Scripts/InventoryItemData.cs"
 "Assets/Scripts/KeyController.cs"
 "Assets/Scripts/KeyPicker.cs"
 "Assets/Scripts/LightEnable.cs"
 "Assets/Scripts/Lights.cs"
 "Assets/Scripts/MouseLook.cs"
 "Assets/Scripts/OpenCabinet.cs"
-"Assets/Scripts/OpenDrawer.cs"
 "Assets/Scripts/playerActions.cs"
 "Assets/Scripts/PlayerManager.cs"
 "Assets/Scripts/PlayerMovement.cs"
@@ -360,6 +358,7 @@
 "Assets/Scripts/SetLamp.cs"
 "Assets/Scripts/StunEnemy.cs"
 "Assets/Scripts/TaskManager.cs"
+"Assets/Scripts/UIController.cs"
 "Assets/_Flashlight PRO/_Assets/scripts/Flashlight_PRO.cs"
 -langversion:9.0
 

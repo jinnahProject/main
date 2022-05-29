@@ -24,7 +24,7 @@ public class StunEnemy : MonoBehaviour
         {
             if (myLight.enabled)
             {
-                enemy.GetComponent<NavMeshAgent>().speed -= 0.005f;
+                enemy.GetComponent<NavMeshAgent>().speed -= 0.009f;
                 if(enemy.GetComponent<NavMeshAgent>().speed <= 0.2f)
                 {
                     enemy.GetComponent<EnemyRespawn>().Respawn();

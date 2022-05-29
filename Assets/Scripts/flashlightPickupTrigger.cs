@@ -6,7 +6,6 @@ public class flashlightPickupTrigger : MonoBehaviour
 {
     public GameObject flashlightOnHand;
     public GameObject flashlightOnDesk;
-    private float flashlightInstructionTime = 0f;
     private bool Action = false;
 
 
