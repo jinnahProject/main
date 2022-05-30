@@ -7,6 +7,7 @@ public class flashlightPickupTrigger : MonoBehaviour
     public GameObject flashlightOnHand;
     public GameObject flashlightOnDesk;
     private bool Action = false;
+    public GameObject Inventory;
 
 
     public void beginScript()
@@ -20,14 +21,10 @@ public class flashlightPickupTrigger : MonoBehaviour
 
         if (Action)
         {
-
+            Inventory.GetComponent<InventoryManager>().addFlashlight(flashlightOnHand);
             flashlightOnDesk.GetComponent<MeshRenderer>().enabled = false;
             flashlightOnDesk.GetComponent<CapsuleCollider>().enabled = false;
-            flashlightOnHand.SetActive(true);
         }
         Action = false;
-
-
-
     }
 }

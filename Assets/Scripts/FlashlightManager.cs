@@ -10,21 +10,23 @@ public class FlashlightManager : MonoBehaviour
     public GameObject batteryInfoField;
     public GameObject batteryFullnessBar;
 
+    private bool isActive;
+
     public List<GameObject> batteries;
     GameObject currentBattery;
     List<GameObject> activeBatteries = new List<GameObject>();
     private float flashlightTimer = 0;
-    private bool startFlashlightTimer = false;
     private float maxIntensity = 2.0f;
     private float minIntensity = 0.1f;
     private float fadeRate = 0.01f;
     private float chargeRate = 0.8f;
+    bool startFlashlightTimer = true;
     // Start is called before the first frame update
     void Start()
     {
         myLight = myLight.GetComponent<Light>();
         print("toplam batarya: " + batteries.Count);
-
+        myLight.enabled = true;
 
     }
 
@@ -137,13 +139,16 @@ public class FlashlightManager : MonoBehaviour
         }
     }
 
+    
+
 
     // Update is called once per frame
     void Update()
     {
         setBatteryInfoField();
         setBatteryFullnessBar();
-        if (startFlashlightTimer)
+
+        /* if (startFlashlightTimer)
         {
             flashlightTimer += Time.deltaTime;
             if (flashlightTimer > 0.2f)
@@ -153,13 +158,12 @@ public class FlashlightManager : MonoBehaviour
                 startFlashlightTimer = false;
 
             }
-        }
-        if (Input.GetMouseButton(0))
+        } */
+        /* if (Input.GetMouseButton(0))
         {
+            
 
-            startFlashlightTimer = true;
-
-        }
+        } */
         if (myLight.enabled == true && checkLight())
         {
             if (currentBattery.GetComponent<BatteryController>().getBatteryFullness() <= 0f)
