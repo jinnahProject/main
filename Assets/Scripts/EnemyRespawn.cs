@@ -24,6 +24,9 @@ public class EnemyRespawn : MonoBehaviour
             }
         }
         transform.position = actualSpawnPoint;
-        GetComponent<NavMeshAgent>().speed = 4f;
+        GetComponent<EnemyController>().enemyMaxSpeed += 0.2f;
+        print("enemy max speed " + GetComponent<EnemyController>().enemyMaxSpeed);
+        GetComponent<NavMeshAgent>().speed = GetComponent<EnemyController>().enemyMaxSpeed;
+        print("enemy speed " + GetComponent<NavMeshAgent>().speed);
     }
 }

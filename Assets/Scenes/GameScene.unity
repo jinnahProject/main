@@ -13148,7 +13148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384567732}
   m_LocalRotation: {x: -0.7071069, y: 0.000000029802319, z: -0, w: 0.70710677}
-  m_LocalPosition: {x: 2.63, y: 1.6, z: 3.12}
+  m_LocalPosition: {x: 0.39, y: 1, z: 0.15}
   m_LocalScale: {x: 668.422, y: 980.8964, z: 295.43442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20993,7 +20993,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633314278}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -31551,6 +31551,7 @@ MonoBehaviour:
   myLight: {fileID: 1017186444}
   batteryInfoField: {fileID: 993931461}
   batteryFullnessBar: {fileID: 800588173}
+  otherFlashlight: {fileID: 1365443731}
   batteries:
   - {fileID: 2030232169}
   - {fileID: 1239968044}
@@ -34821,7 +34822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1053229739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34838,8 +34839,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   walkPoint: {x: 0, y: 0, z: 0}
-  walkPointRange: 60
-  lookRadius: 16.55
+  walkPointRange: 5
+  lookRadius: 10
+  enemyMaxSpeed: 2
 --- !u!54 &1053229740
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34880,7 +34882,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 2
-  m_Speed: 4
+  m_Speed: 2
   m_Acceleration: 20
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -44453,7 +44455,7 @@ MonoBehaviour:
   layer:
     serializedVersion: 2
     m_Bits: 2048
-  myLight: {fileID: 1017186444}
+  myLight: {fileID: 633314279}
   enemy: {fileID: 1053229738}
 --- !u!114 &1320733450
 MonoBehaviour:
@@ -45923,7 +45925,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashlightOnHand: {fileID: 938541592}
   flashlightOnDesk: {fileID: 1365259997}
-  Inventory: {fileID: 0}
 --- !u!136 &1365440994
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -45965,8 +45966,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365443731}
-  m_LocalRotation: {x: -0.028457332, y: 0.65900743, z: -0.11350542, w: -0.7429778}
-  m_LocalPosition: {x: 0.41100016, y: 1.3600001, z: 0.64100003}
+  m_LocalRotation: {x: -0.028457342, y: 0.65900743, z: -0.113505445, w: -0.7429778}
+  m_LocalPosition: {x: -0.708, y: 1.36, z: 0.789}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -46086,9 +46087,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166c7d276cda2445eb510a5ddb16c44d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 633314279}
+  myLight: {fileID: 633314279}
   flashlight: {fileID: 1365443731}
-  Inventory: {fileID: 1721985595}
+  otherFlashlight: {fileID: 938541592}
 --- !u!114 &1372448031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57956,7 +57957,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721985595}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca1435f4596624a949cb45fc7c5021dd, type: 3}
   m_Name: 
@@ -64152,7 +64153,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashlightOnHand: {fileID: 938541592}
   flashlightOnDesk: {fileID: 1930648493}
-  Inventory: {fileID: 1721985595}
 --- !u!1001 &1931339983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64954,15 +64954,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 416254, guid: 47af58fd905aee649a315f604914d38e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.286
+      value: -5.22
       objectReference: {fileID: 0}
     - target: {fileID: 416254, guid: 47af58fd905aee649a315f604914d38e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7779999
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 416254, guid: 47af58fd905aee649a315f604914d38e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30.105
+      value: 6.84
       objectReference: {fileID: 0}
     - target: {fileID: 416254, guid: 47af58fd905aee649a315f604914d38e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -65022,7 +65022,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashlightOnHand: {fileID: 1365443731}
   flashlightOnDesk: {fileID: 1952288184}
-  Inventory: {fileID: 1721985595}
 --- !u!136 &1952288186
 CapsuleCollider:
   m_ObjectHideFlags: 0
