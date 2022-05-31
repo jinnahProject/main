@@ -10,6 +10,8 @@ public class FlashlightManager : MonoBehaviour
     public GameObject batteryInfoField;
     public GameObject batteryFullnessBar;
 
+    public GameObject otherFlashlight;
+    
     private bool isActive;
 
     public List<GameObject> batteries;
@@ -139,16 +141,38 @@ public class FlashlightManager : MonoBehaviour
         }
     }
 
-    
+    public bool getLightState()
+    {
+        return myLight.enabled;
+    }
 
+    public void setLightState(bool state)
+    {
+        myLight.enabled = state;
+    }
 
     // Update is called once per frame
     void Update()
     {
         setBatteryInfoField();
         setBatteryFullnessBar();
-
-        /* if (startFlashlightTimer)
+        
+        if (Input.GetKeyDown(KeyCode.F))
+        {   
+            print("normal flashlight was" + getLightState());
+                if(otherFlashlight.GetComponent<UVFlashlightAction>().getLightState())
+                {
+                    otherFlashlight.GetComponent<UVFlashlightAction>().setLightState(false);
+                    startFlashlightTimer = true;
+                    print("normal flashlight is on");
+                    print("other flashlight is off");
+                }
+            else{
+                startFlashlightTimer = true;
+                print("normal flashlight is on");
+            }
+        }
+        if (startFlashlightTimer)
         {
             flashlightTimer += Time.deltaTime;
             if (flashlightTimer > 0.2f)
@@ -158,12 +182,8 @@ public class FlashlightManager : MonoBehaviour
                 startFlashlightTimer = false;
 
             }
-        } */
-        /* if (Input.GetMouseButton(0))
-        {
-            
-
-        } */
+        }
+        
         if (myLight.enabled == true && checkLight())
         {
             if (currentBattery.GetComponent<BatteryController>().getBatteryFullness() <= 0f)

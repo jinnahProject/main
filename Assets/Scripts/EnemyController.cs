@@ -17,6 +17,8 @@ public class EnemyController : MonoBehaviour
 
     public float lookRadius = 10f;
 
+    public float enemyMaxSpeed = 2f;
+
     Transform target;
     NavMeshAgent agent;
     // Start is called before the first frame update

@@ -31,6 +31,16 @@ public class StunEnemy : MonoBehaviour
                 }
 
             }
+            else{
+                if(enemy.GetComponent<NavMeshAgent>().speed <= enemy.GetComponent<EnemyController>().enemyMaxSpeed){
+                enemy.GetComponent<NavMeshAgent>().speed += 0.009f;
+            }
+            }
+        }
+        else{
+            if(enemy.GetComponent<NavMeshAgent>().speed <= enemy.GetComponent<EnemyController>().enemyMaxSpeed){
+                enemy.GetComponent<NavMeshAgent>().speed += 0.009f;
+            }
         }
 
     }
