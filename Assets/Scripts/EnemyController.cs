@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
@@ -45,7 +46,7 @@ public class EnemyController : MonoBehaviour
         {
             agent.SetDestination(target.position);
 
-            if(distance <= agent.stoppingDistance)
+            if(distance <= 6.0f)
             {
                 FaceTarget();
 
@@ -92,9 +93,10 @@ public class EnemyController : MonoBehaviour
 
     void FaceTarget()
     {
-        Vector3 direction = (target.position - transform.position).normalized;
-        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
+        //jumpscare
+        print("jumpscare");
+        SceneManager.LoadScene("GameOverScene");
+
     }
 
     void OnDrawGizmosSelected()

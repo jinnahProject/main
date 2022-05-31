@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style.uss?fileID=7433441132597879392&amp;guid=d6787dc16dc4f174f8f48dec44ef55c7&amp;type=3#Style" />
+    <ui:Button text="Devam Et" display-tooltip-when-elided="true" name="start_button" class="button_style" style="top: 30%; left: 38%;" />
+    <ui:Button text="Menüye Dön" display-tooltip-when-elided="true" name="exit_button" class="button_style" style="top: 43%; display: flex;" />
+    <ui:Label text="Etkileşimler : E&#10;Zıplama : Space&#10;Normal fener : Sol Tık&#10;UV el feneri : Sağ Tık&#10;  " display-tooltip-when-elided="true" style="height: 647px; width: 648px; left: 16px; top: 222px; position: absolute; font-size: 60px; -unity-text-align: upper-left; color: rgb(164, 164, 164); -unity-font: none;" />
+</ui:UXML>
