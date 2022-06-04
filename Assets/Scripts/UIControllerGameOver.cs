@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
@@ -18,6 +19,7 @@ public class UIControllerGameOver : MonoBehaviour
 
         tryAgainButton.clicked += StartButtonPressed;
         exitButton.clicked += ExitButtonPressed;
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
 
 
     }
@@ -25,7 +27,9 @@ public class UIControllerGameOver : MonoBehaviour
     // Update is called once per frame
     void StartButtonPressed()
     {
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
         SceneManager.LoadScene("GameScene");
+
     }
     void ExitButtonPressed()
     {

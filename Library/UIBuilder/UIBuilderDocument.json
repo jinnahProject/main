@@ -29,10 +29,10 @@
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/DisplayMenu 2.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/DisplayMenu 1.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "fba25519b35c13343b8ec94596b31ac5",
+                    "guid": "fdaa18b1a7c308e4f8d3a2d6db39a0dd",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
@@ -41,28 +41,28 @@
                     "type": 3
                 },
                 "m_Settings": {
-                    "UxmlGuid": "fba25519b35c13343b8ec94596b31ac5",
-                    "UxmlPath": "Assets/DisplayMenu 2.uxml",
+                    "UxmlGuid": "fdaa18b1a7c308e4f8d3a2d6db39a0dd",
+                    "UxmlPath": "Assets/DisplayMenu 1.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 1920,
                     "CanvasHeight": 1080,
                     "MatchGameView": true,
-                    "ZoomScale": 0.5,
+                    "ZoomScale": 0.25,
                     "PanOffset": {
-                        "x": 209.0,
-                        "y": 171.0
+                        "x": 397.2166442871094,
+                        "y": 247.64999389648438
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,
                     "CameraModeCanvasBackgroundOpacity": 1.0,
-                    "EnableCanvasBackground": true,
+                    "EnableCanvasBackground": false,
                     "CanvasBackgroundMode": 0,
                     "CanvasBackgroundColor": {
                         "r": 0.0,
                         "g": 0.0,
                         "b": 0.0,
-                        "a": 0.5764706134796143
+                        "a": 255.0
                     },
                     "CanvasBackgroundImage": {
                         "instanceID": 0

@@ -7,7 +7,6 @@ public class KeyPicker : MonoBehaviour
     public GameObject Instruction;
     public GameObject key;
     public GameObject pickedKey;
-    public GameObject door;
     public AudioClip pickingKeySound;
     private bool Action = false;
     // Start is called before the first frame update

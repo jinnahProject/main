@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class playerActions : MonoBehaviour
 {
     public Transform cam;
     public float playerActivateDistence;
     bool active = false;
     public GameObject cursor;
+    public GameObject doorName;
     public GameObject InteractionText;
     private TextMesh IntTxt;
+    private TextMesh DoorTxt;
     private bool TextVisibility = false;
     private float TextVisibilityTimer = 0f;
 
@@ -17,6 +19,7 @@ public class playerActions : MonoBehaviour
     void Start()
     {
         IntTxt = InteractionText.GetComponent<TextMesh>();
+        DoorTxt = doorName.GetComponent<TextMesh>();
 
     }
     private void Update()
@@ -45,7 +48,7 @@ public class playerActions : MonoBehaviour
                 {
                     hit.transform.GetComponent<flashlightPickupTrigger>().beginScript();
                     TextVisibility = true;
-                    IntTxt.text = "El feneri ile 1 batarya alýndý";
+                    IntTxt.text = "El feneri alýndý";
 
                 }
 
@@ -75,6 +78,7 @@ public class playerActions : MonoBehaviour
             else if (hit.transform.tag == "Cabinet")
             {
                 cursor.SetActive(true);
+
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     hit.transform.GetComponent<OpenCabinet>().beginScript();
@@ -84,11 +88,20 @@ public class playerActions : MonoBehaviour
             else if (hit.transform.tag == "Door")
             {
                 cursor.SetActive(true);
+                doorName.SetActive(true);
+
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    if(DoorTxt.text== "Ana Kapý" && hit.transform.GetComponent<PressKeyOpenDoor>().doIHaveKey)
+                    {
+                        SceneManager.LoadScene("MenuScene");
+                    }
                     hit.transform.GetComponent<PressKeyOpenDoor>().beginScript();
-
+                    
                 }
+                DoorTxt.text = hit.collider.gameObject.name;
+                
+
             }
             else if (hit.transform.tag == "Key")
             {
@@ -104,19 +117,24 @@ public class playerActions : MonoBehaviour
             else if (hit.transform.tag == "Lamp")
             {
                 cursor.SetActive(true);
+
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     hit.transform.GetComponent<LightEnable>().beginScript();
 
                 }
+              
             }
             else
             {
                 cursor.SetActive(false);
+                doorName.SetActive(false);
             }
         }
         else
         {
+            doorName.SetActive(false);
+
             cursor.SetActive(false);
         }
 
