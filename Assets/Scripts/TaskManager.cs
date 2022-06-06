@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TaskManager : MonoBehaviour
 {
+    public static bool lastKeyFound = false;
+    public static bool createEnemy;
     public List<GameObject> Keys;
     public GameObject Flashlight;
     public GameObject uvFlashlight;
@@ -66,6 +68,7 @@ public class TaskManager : MonoBehaviour
                 }
             case 3:
                 {
+                    createEnemy = true;
                     changeTask("Kanlý kapýyý açmak için anahtar bul.", Keys[1], 4);
                     break;
                 }
@@ -96,6 +99,7 @@ public class TaskManager : MonoBehaviour
                 }
             case 9:
                 {
+                    lastKeyFound = true;
                     task.text = "EVDEN KAÇ!\n(Dikkat et, bebek çok kýzgýn!!)";
                     break;
                 }

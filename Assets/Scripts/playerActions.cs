@@ -138,15 +138,5 @@ public class playerActions : MonoBehaviour
             cursor.SetActive(false);
         }
 
-        /* if(Input.GetKeyDown(KeyCode.E) && active)
-        {
-            if(hit.transform.tag == "Flashlight")
-            {
-                instruction.SetActive(true);
-                hit.transform.GetComponent<flashlightPickupTrigger>().test();
-                print("Interaction");
-            }
-        } */
-
     }
 }

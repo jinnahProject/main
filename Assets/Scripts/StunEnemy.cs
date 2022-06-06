@@ -18,6 +18,10 @@ public class StunEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (TaskManager.createEnemy)
+        {
+            enemy.SetActive(true);
+        }
         RaycastHit hit;
 
         if (Physics.Raycast(cam.position, cam.TransformDirection(Vector3.forward), out hit, playerActivateDistence, layer))

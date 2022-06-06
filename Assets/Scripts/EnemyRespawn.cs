@@ -9,13 +9,16 @@ public class EnemyRespawn : MonoBehaviour
     private float maxDistance = 0f;
     private Vector3 actualSpawnPoint;
     // Start is called before the first frame update
+    
     public void Respawn()
     {
         float playerX = PlayerPosition.position.x;
         float playerZ = PlayerPosition.position.z;
         for (int i = 0; i < spawnPoints.Count; i++)
         {
+            
             float distance = Mathf.Abs(spawnPoints[i].x - playerX + spawnPoints[i].z - playerZ);
+            print(distance + " " + i);
             if (distance > maxDistance)
             {
                 maxDistance = distance;

@@ -18,7 +18,7 @@ public class EnemyController : MonoBehaviour
     /// </Patrolling>
     private float enemyMoveCheckX = 0f;
     private float enemyMoveCheckZ = 0f;
-
+    private bool oneTimeProcess= true;
     public float lookRadius = 10f;
 
     public float enemyMaxSpeed = 2f;
@@ -46,16 +46,23 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         float distance = Vector3.Distance(target.position, transform.position);
+        Vector3 targetDir = target.position - transform.position;
+        float _angle = Vector3.Angle(targetDir,transform.forward);
 
-        if (distance <= lookRadius)
+        if (distance <= lookRadius || (_angle <= 70 && _angle >= -70) || TaskManager.lastKeyFound)
         {
+            if (TaskManager.lastKeyFound && oneTimeProcess)
+            {
+                agent.speed = 5f;
+                oneTimeProcess = false;
+            }
             agent.SetDestination(target.position);
 
             if(distance <= 6.0f)
             {
                 FaceTarget();
-
             }
         }
         else
