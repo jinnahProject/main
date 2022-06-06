@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
+    public GameObject jumpscareCam;
+    public Animator jsAnim;
+    public GameObject horrorDoll;
+    private float jsTimer = 0f;
     public LayerMask whatIsGround;
     /// <Patrolling>
     public Vector3 walkPoint;
@@ -95,11 +99,17 @@ public class EnemyController : MonoBehaviour
 
     void FaceTarget()
     {
-        //jumpscare
-        print("jumpscare");
-        SceneManager.LoadScene("GameOverScene");
-
+        horrorDoll.SetActive(false);
+        jumpscareCam.SetActive(true);
+        jsAnim.Play("DirectionalLight");
+        Time.timeScale = 0f;
+        jsTimer += Time.unscaledDeltaTime;
+        if (jsTimer > 2f)
+        {
+            SceneManager.LoadScene(2);
+        }
     }
+
 
     void OnDrawGizmosSelected()
     {

@@ -6,6 +6,8 @@ public class TaskManager : MonoBehaviour
 {
     public List<GameObject> Keys;
     public GameObject Flashlight;
+    public GameObject uvFlashlight;
+
     private int taskOrder = 0;
     private TextMesh task;
     private float TaskClose = 0f;
@@ -49,7 +51,7 @@ public class TaskManager : MonoBehaviour
         {
             case 0:
                 {
-                    changeTask("El feneri bul", Flashlight, 1);
+                    changeTask("Normal el feneri bul", Flashlight, 1);
                     break;
                 }
             case 1:
@@ -59,11 +61,42 @@ public class TaskManager : MonoBehaviour
                 }
             case 2:
                 {
-                    changeTask("Kanlý kapýyý açmak için anahtar bul.",Keys[1], 3);
+                    changeTask("Kýzýl Ötesi El feneri bul\n(Ýpucu: Bebek, ýþýðýndan çok rahatsýz olur)", uvFlashlight, 3);
                     break;
                 }
             case 3:
                 {
+                    changeTask("Kanlý kapýyý açmak için anahtar bul.", Keys[1], 4);
+                    break;
+                }
+            case 4:
+                {
+                    changeTask("Banyoya ulaþmak için anahtar bul.", Keys[2], 5);
+                    break;
+                }
+            case 5:
+                {
+                    changeTask("Çalýþma Odasýna girebilmek için anahtar bul.", Keys[3], 6);
+                    break;
+                }
+            case 6:
+                {
+                    changeTask("Büyük odaya girmek için anahtar bul.", Keys[4], 7);
+                    break;
+                }
+            case 7:
+                {
+                    changeTask("Yemek odasýna ulaþmak için anahtar bul.", Keys[5], 8);
+                    break;
+                }
+            case 8:
+                {
+                    changeTask("Ana kapýdan kaçmak için anahtarýný bul.", Keys[6], 9);
+                    break;
+                }
+            case 9:
+                {
+                    task.text = "EVDEN KAÇ!\n(Dikkat et, bebek çok kýzgýn!!)";
                     break;
                 }
         }

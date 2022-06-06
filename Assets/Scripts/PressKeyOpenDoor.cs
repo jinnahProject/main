@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.AI;
 public class PressKeyOpenDoor : MonoBehaviour
 {
     public GameObject AnimeObject;
@@ -63,6 +63,14 @@ public class PressKeyOpenDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!locked)
+        {
+            GetComponent<NavMeshObstacle>().enabled = false;
+        }
+        else
+        {
+            GetComponent<NavMeshObstacle>().enabled = true;
+        }
         if (soundPlayed)
         {
             nextSoundTimer += Time.deltaTime;

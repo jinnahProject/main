@@ -28,6 +28,8 @@ public class UIControllerGameOver : MonoBehaviour
     void StartButtonPressed()
     {
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        Time.timeScale = 1f;
+
         SceneManager.LoadScene("GameScene");
 
     }
