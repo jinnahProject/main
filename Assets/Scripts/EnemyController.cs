@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
+    public AudioClip babyBreath;
     public GameObject jumpscareCam;
     public Animator jsAnim;
     public GameObject horrorDoll;
@@ -22,7 +23,7 @@ public class EnemyController : MonoBehaviour
     public float lookRadius = 10f;
 
     public float enemyMaxSpeed = 2f;
-
+    private AudioSource _audioSource;
     Transform target;
     NavMeshAgent agent;
     // Start is called before the first frame update
@@ -30,7 +31,7 @@ public class EnemyController : MonoBehaviour
     {
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
-        
+        _audioSource = GetComponent<AudioSource>();
     }
     private bool EnemyMovingOrNot()
     {
@@ -46,16 +47,19 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        if (_audioSource.isPlaying || StunEnemy.audioSource.isPlaying) ;
+        else _audioSource.PlayOneShot(babyBreath);
+        
         float distance = Vector3.Distance(target.position, transform.position);
         Vector3 targetDir = target.position - transform.position;
         float _angle = Vector3.Angle(targetDir,transform.forward);
 
-        if (distance <= lookRadius || (_angle <= 70 && _angle >= -70) || TaskManager.lastKeyFound)
+        if (distance <= lookRadius || (_angle <= 70 && _angle >= -70 && distance <= 55f) || TaskManager.lastKeyFound)
         {
             if (TaskManager.lastKeyFound && oneTimeProcess)
             {
-                agent.speed = 5f;
+                agent.speed += 2f;
+                enemyMaxSpeed += 2f;
                 oneTimeProcess = false;
             }
             agent.SetDestination(target.position);

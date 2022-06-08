@@ -157,7 +157,7 @@ public class FlashlightManager : MonoBehaviour
         setBatteryInfoField();
         setBatteryFullnessBar();
         
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetMouseButtonDown(0))
         {   
             print("normal flashlight was" + getLightState());
                 if(otherFlashlight.GetComponent<UVFlashlightAction>().getLightState())

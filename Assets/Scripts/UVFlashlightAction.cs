@@ -31,7 +31,8 @@ public class UVFlashlightAction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.U)){
+        if(Input.GetMouseButtonDown(1))
+        {
             print("uv flashlight was" + getLightState());
                 if(otherFlashlight.GetComponent<FlashlightManager>().getLightState())
                 {

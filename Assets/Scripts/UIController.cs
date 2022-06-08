@@ -25,6 +25,8 @@ public class UIController : MonoBehaviour
     // Update is called once per frame
     void StartButtonPressed()
     {
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("GameScene");
     }
     void ExitButtonPressed()
