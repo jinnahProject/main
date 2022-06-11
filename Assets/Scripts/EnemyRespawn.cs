@@ -5,13 +5,22 @@ using UnityEngine.AI;
 public class EnemyRespawn : MonoBehaviour
 {
     public Transform PlayerPosition;
+    public AudioClip babyLaughing;
     public List<Vector3> spawnPoints;
     private float maxDistance = 0f;
     private Vector3 actualSpawnPoint;
+    public GameObject audioObject;
+    private AudioSource audioSource;
     // Start is called before the first frame update
-    
+    void Start()
+    {
+     audioSource = audioObject.GetComponent<AudioSource>();   
+    }
+
     public void Respawn()
     {
+        print("Respawning");
+        audioSource.PlayOneShot(babyLaughing);
         float playerX = PlayerPosition.position.x;
         float playerZ = PlayerPosition.position.z;
         for (int i = 0; i < spawnPoints.Count; i++)
