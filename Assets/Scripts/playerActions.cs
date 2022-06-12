@@ -7,13 +7,20 @@ public class playerActions : MonoBehaviour
     public Transform cam;
     public float playerActivateDistence;
     bool active = false;
+        //All interactions and info texts//
     public GameObject cursor;
-    public GameObject doorName;
     public GameObject InteractionText;
     private TextMesh IntTxt;
+        //Reading door names//
+    public GameObject doorName;
     private TextMesh DoorTxt;
     private bool TextVisibility = false;
     private float TextVisibilityTimer = 0f;
+        //Win screen//
+    public GameObject winDisplay;
+    public Animator winDpAnim;
+    private float animTimer = 0f;
+    private bool startTimer = false;
 
     // Update is called once per frame
     void Start()
@@ -22,6 +29,7 @@ public class playerActions : MonoBehaviour
         DoorTxt = doorName.GetComponent<TextMesh>();
 
     }
+
     private void Update()
     {
         RaycastHit hit;
@@ -37,6 +45,16 @@ public class playerActions : MonoBehaviour
                 TextVisibilityTimer = 0f;
                 TextVisibility = false;
             }   
+        }
+        if (startTimer)
+        {
+            animTimer += Time.unscaledDeltaTime;
+            if (animTimer > 5f)
+            {
+                UnityEngine.Cursor.lockState = CursorLockMode.None;
+
+                SceneManager.LoadScene(0);
+            }
         }
         if (active)
         {
@@ -94,7 +112,11 @@ public class playerActions : MonoBehaviour
                 {
                     if(DoorTxt.text== "Ana Kapý" && hit.transform.GetComponent<PressKeyOpenDoor>().doIHaveKey)
                     {
-                        SceneManager.LoadScene("MenuScene");
+                        winDisplay.SetActive(true);
+                        winDpAnim.Play("WinDisplayLight");
+                        Time.timeScale = 0f;
+                        startTimer = true;
+                        
                     }
                     hit.transform.GetComponent<PressKeyOpenDoor>().beginScript();
                     
@@ -139,4 +161,6 @@ public class playerActions : MonoBehaviour
         }
 
     }
+
+
 }

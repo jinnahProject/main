@@ -16,11 +16,15 @@ public class EnemyRespawn : MonoBehaviour
     {
      audioSource = audioObject.GetComponent<AudioSource>();   
     }
+    void Laugh()
+    {
+        audioSource.PlayOneShot(babyLaughing);
+    }
 
     public void Respawn()
     {
         print("Respawning");
-        audioSource.PlayOneShot(babyLaughing);
+        Invoke("Laugh", 2f);
         float playerX = PlayerPosition.position.x;
         float playerZ = PlayerPosition.position.z;
         for (int i = 0; i < spawnPoints.Count; i++)
