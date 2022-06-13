@@ -37,7 +37,7 @@ public class StunEnemy : MonoBehaviour
             if (myLight.enabled)
             {
                 print(baby.speed);
-                baby.speed -= 0.02f;
+                baby.speed -= 0.009f;
                 if (baby.speed >= 1.7f)
                 {
                     playSound(audioClips[0]);
@@ -46,7 +46,7 @@ public class StunEnemy : MonoBehaviour
                 {
                     playSound(audioClips[1]);
                 }
-                else if (baby.speed < 0.8f && baby.speed > 0.1f)
+                else if (baby.speed < 0.7f && baby.speed > 0.1f)
                 {
                     playSound(audioClips[2]);
                 }

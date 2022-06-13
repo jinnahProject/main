@@ -339,6 +339,7 @@
 "Assets/Scripts/BatteryController.cs"
 "Assets/Scripts/batteryPicker.cs"
 "Assets/Scripts/bedroomInside.cs"
+"Assets/Scripts/ConstantSounds.cs"
 "Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/EnemyDoorRay.cs"
 "Assets/Scripts/EnemyRespawn.cs"

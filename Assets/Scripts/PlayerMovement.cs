@@ -5,18 +5,25 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
-
     public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
     public Transform groundCheck;
     public float groundDistance = 0f;
     public LayerMask groundMask;
-
     bool isGrounded;
+    public AudioSource audioSource;
+    private Vector3 moveDetector;
+    private float stopTimer = 0f;
 
     Vector3 velocity;
     // Update is called once per frame
+
+    void Start()
+    {
+        audioSource = audioSource.GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
@@ -30,6 +37,26 @@ public class PlayerMovement : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
+        print(moveDetector == controller.transform.position);
+
+        stopTimer += Time.deltaTime;
+        if (stopTimer > 0.3f)
+        {
+
+            if (moveDetector != controller.transform.position)
+            {
+                if (!audioSource.isPlaying)
+                audioSource.Play();
+            }
+            else
+            {
+
+                audioSource.Stop();
+            }
+            stopTimer = 0f;
+            moveDetector = controller.transform.position;
+
+        }
 
         controller.Move(move*speed * Time.deltaTime);
 
@@ -41,5 +68,7 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+
     }
 }

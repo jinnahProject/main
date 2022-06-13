@@ -14,11 +14,11 @@ public class EnemyRespawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     audioSource = audioObject.GetComponent<AudioSource>();   
+        audioSource = audioObject.GetComponent<AudioSource>();   
     }
     void Laugh()
     {
-        audioSource.PlayOneShot(babyLaughing);
+        audioSource.PlayOneShot(babyLaughing,0.5f);
     }
 
     public void Respawn()
